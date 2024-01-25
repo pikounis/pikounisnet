@@ -1,0 +1,13 @@
+.buttonAppBar {
+    width: 100%; /* Ensure it takes full width */
+}
+
+.toolbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.right-div {
+    display: flex;
+    align-items: center;
+}

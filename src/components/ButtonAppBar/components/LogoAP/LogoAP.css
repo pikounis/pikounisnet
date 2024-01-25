@@ -1,0 +1,7 @@
+.logo {
+    width: 10px;
+    height: 10px;
+    background-color: currentColor; /* This will use the color property of the parent element */
+    -webkit-mask: url('../../../../public/ap.svg') no-repeat center / contain;
+    mask: url('../../../../public/ap.svg') no-repeat center / contain;
+}
