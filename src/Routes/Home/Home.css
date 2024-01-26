@@ -2,3 +2,34 @@
     padding-top: 64px;
     min-height: 100vh;
 }
+
+
+
+/* ImageStyles.css */
+.full-screen-img {
+    width: 100vw;   /* Full width of the viewport */
+    height: calc(100vh - 64px);
+    object-fit: cover; /* Ensures the image covers the area without stretching */
+    z-index: -1; /* Ensure it stays in the background */
+}
+
+/*@media (max-width: 600px) {*/
+/*    .full-screen-img {*/
+/*        top: 56px; !* Smaller top offset for mobile screens *!*/
+/*        width: 100vw;   !* Full width of the viewport *!*/
+/*        height: calc(100vh - 64px);*/
+/*        object-fit: cover; !* Ensures the image covers the area without stretching *!*/
+/*        z-index: -1; !* Ensure it stays in the background *!*/
+/*    }*/
+/*}*/
+
+@media (max-width: 600px) {
+    .container {
+        padding-top: 56px;
+        min-height: 100vh;
+    }
+
+    .full-screen-img {
+        height: calc(100vh - 56px); /* Smaller height for mobile screens */
+    }
+}
