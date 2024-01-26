@@ -1,17 +1,18 @@
 import React from 'react';
 import { ThemeProvider, CssBaseline } from '@mui/material';
-import { lightTheme, darkTheme, blueTheme, redTheme } from '../src/Theme/Theme.jsx'; // Adjust the path as needed
+import { lightTheme, darkTheme, blueTheme, redTheme } from '../src/Theme/Theme.jsx';
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import Home from '../src/Routes/Home/Home.jsx';
 import About from '../src/Routes/About/About.jsx';
 import { useSelector } from 'react-redux';
 import ButtonAppBar from "./components/ButtonAppBar/ButtonAppBar.jsx";
+import LanguageSynchronizer from '../src/Translation/LanguageSynchronizer.jsx'; // Import LanguageSynchronizer
 
 function App() {
     const themeName = useSelector((state) => state.theme.currentTheme);
 
-    // Determine which theme to use based on the Redux state
+    // Determine the theme based on Redux state
     const currentTheme = () => {
         switch(themeName) {
             case 'light':
@@ -30,6 +31,7 @@ function App() {
     return (
         <ThemeProvider theme={currentTheme()}>
             <CssBaseline />
+            <LanguageSynchronizer /> {/* Include LanguageSynchronizer */}
             <div>
                 <ButtonAppBar />
                 <Routes>

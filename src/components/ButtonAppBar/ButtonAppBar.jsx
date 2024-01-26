@@ -4,7 +4,7 @@ import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
 import Button from '@mui/material/Button';
 import { useNavigate } from 'react-router-dom';
-
+import LanguagePicker from "./components/LanguagePicker/LanguagePicker.jsx";
 import './ButtonAppBar.css';
 import ThemeMenu from "./components/ThemeMenu/ThemeMenu.jsx";
 import LogoAP from "./components/LogoAP/LogoAP.jsx";
@@ -20,6 +20,7 @@ function ButtonAppBar() {
                     <div className="right-div"> {/* Ensure inline display */}
                         <Button color="inherit" onClick={() => navigate('/')}>Home</Button>
                         <Button color="inherit" onClick={() => navigate('/about')}>About</Button>
+                        <LanguagePicker />
                         <ThemeMenu />
                     </div>
                 </Toolbar>
