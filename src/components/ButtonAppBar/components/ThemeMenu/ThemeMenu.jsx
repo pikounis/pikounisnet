@@ -9,8 +9,6 @@ import './ThemeMenu.css';
 
 const options = ['Light', 'Dark', 'Blue', 'Red'];
 
-const ITEM_HEIGHT = 48;
-
 function ThemeMenu() {
     const dispatch = useDispatch();
     const [anchorEl, setAnchorEl] = React.useState(null);

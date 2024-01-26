@@ -6,8 +6,9 @@ import Button from '@mui/material/Button';
 import { useNavigate } from 'react-router-dom';
 import LanguagePicker from "./components/LanguagePicker/LanguagePicker.jsx";
 import './ButtonAppBar.css';
-import ThemeMenu from "./components/ThemeMenu/ThemeMenu.jsx";
+// import ThemeMenu from "./components/ThemeMenu/ThemeMenu.jsx";
 import LogoAP from "./components/LogoAP/LogoAP.jsx";
+import ThemeSwitch from "./components/ThemeSwitch/ThemeSwitch.jsx";
 
 function ButtonAppBar() {
     const navigate = useNavigate();
@@ -23,7 +24,8 @@ function ButtonAppBar() {
                     </div>
                     <div className="right-div"> {/* Ensure inline display */}
                         <LanguagePicker />
-                        <ThemeMenu />
+                        {/*<ThemeMenu />*/}
+                        <ThemeSwitch />
                     </div>
                 </Toolbar>
             </AppBar>
