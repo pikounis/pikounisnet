@@ -29,8 +29,6 @@ const lightTheme = createTheme({
             },
         },
     },
-
-
 });
 
 const darkTheme = createTheme({
@@ -61,7 +59,6 @@ const darkTheme = createTheme({
                 },
             },
         },
-        // ... other component overrides ...
     },
 
     // Additional customizations

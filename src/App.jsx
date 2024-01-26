@@ -7,7 +7,8 @@ import Home from '../src/Routes/Home/Home.jsx';
 import About from '../src/Routes/About/About.jsx';
 import { useSelector } from 'react-redux';
 import ButtonAppBar from "./components/ButtonAppBar/ButtonAppBar.jsx";
-import LanguageSynchronizer from '../src/Translation/LanguageSynchronizer.jsx'; // Import LanguageSynchronizer
+import LanguageSynchronizer from '../src/Translation/LanguageSynchronizer.jsx';
+import Footer from "./components/Footer/Footer.jsx";
 
 function App() {
     const themeName = useSelector((state) => state.theme.currentTheme);
@@ -39,6 +40,7 @@ function App() {
                     <Route path="/about" element={<About />} />
                     <Route path="*" element={<Home />} /> {/* 404 route */}
                 </Routes>
+                <Footer />
             </div>
         </ThemeProvider>
     );
