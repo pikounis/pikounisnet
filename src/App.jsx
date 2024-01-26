@@ -37,6 +37,7 @@ function App() {
                 <Routes>
                     <Route path="/" element={<Home />} />
                     <Route path="/about" element={<About />} />
+                    <Route path="*" element={<Home />} /> {/* 404 route */}
                 </Routes>
             </div>
         </ThemeProvider>

@@ -5,6 +5,7 @@ import MenuItem from '@mui/material/MenuItem';
 import LanguageIcon from '@mui/icons-material/Language';
 import { useDispatch } from 'react-redux';
 import { setLanguage } from '../../../../Store/languageSlice.jsx';
+import Flags from './components/Flags/Flags.jsx';
 import './LanguagePicker.css';
 
 const options = [
@@ -12,8 +13,8 @@ const options = [
     { name: 'Chinese', code: 'cn' },
     { name: 'French', code: 'fr' },
     { name: 'Greek', code: 'gr' },
-    { name: 'Hindi', code: 'in' },
-    { name: 'Spanish', code: 'sp' },
+    { name: 'Hindi', code: 'ind' },
+    { name: 'Spanish', code: 'es' },
     { name: 'English', code: 'uk' }
 ];
 
@@ -56,12 +57,15 @@ function LanguagePicker() {
                 anchorEl={anchorEl}
                 open={open}
                 onClose={handleClose}
-                PaperProps={{
-                    classes: { paper: 'languagePicker-paper' }
+                sx={{
+                    '& .MuiPaper-root': {
+                        minWidth: '120px', // Adjust the width as needed
+                    }
                 }}
             >
                 {options.map(({ name, code }) => (
                     <MenuItem key={name} onClick={() => handleLanguageChange(code)}>
+                        <Flags flagCode={code} />
                         {name}
                     </MenuItem>
                 ))}

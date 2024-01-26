@@ -17,9 +17,11 @@ function ButtonAppBar() {
             <AppBar position="fixed">
                 <Toolbar className="toolbar">
                     <LogoAP />
-                    <div className="right-div"> {/* Ensure inline display */}
+                    <div>
                         <Button color="inherit" onClick={() => navigate('/')}>Home</Button>
                         <Button color="inherit" onClick={() => navigate('/about')}>About</Button>
+                    </div>
+                    <div className="right-div"> {/* Ensure inline display */}
                         <LanguagePicker />
                         <ThemeMenu />
                     </div>

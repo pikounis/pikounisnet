@@ -1,0 +1,6 @@
+.flag-image {
+    max-width: 30px; /* Adjust the width as needed */
+    max-height: 20px; /* Adjust the height as needed */
+    display: block; /* To prevent inline extra space */
+    padding-right: 10px;
+}

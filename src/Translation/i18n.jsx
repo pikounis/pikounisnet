@@ -17,7 +17,7 @@ i18n
             cn: { translation: translationCN },
             fr: { translation: translationFR },
             gr: { translation: translationGR },
-            in: { translation: translationIN },
+            ind: { translation: translationIN },
             sp: { translation: translationSP },
             uk: { translation: translationUK }
         },
