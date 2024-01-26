@@ -1,7 +1,7 @@
 .signature {
     width: auto;
     height: 70px;
-    background-color: currentColor; /* This will use the color property of the parent element */
     -webkit-mask: url('../../../../signature.svg') no-repeat center / contain;
     mask: url('../../../../signature.svg') no-repeat center / contain;
+    transition: background-color 0.3s; /* Smooth transition for background color */
 }

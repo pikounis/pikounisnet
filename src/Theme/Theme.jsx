@@ -54,8 +54,8 @@ const darkTheme = createTheme({
         MuiAppBar: {
             styleOverrides: {
                 root: {
-                    backgroundColor: '#ffffff', // Red color for AppBar in dark mode
-                    color: '#000000',
+                    backgroundColor: '#000000', // Red color for AppBar in dark mode
+                    color: '#ffffff',
                 },
             },
         },

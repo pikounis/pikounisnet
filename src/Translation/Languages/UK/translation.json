@@ -1,4 +1,5 @@
 {
   "welcomeMessage": "Welcome in UK",
-  "description": "English."
+  "description": "English.",
+  "bio": "Hello, I am a software engineer living in London. I enjoy learning, sailing, scuba diving, music and building things.\n\nAt 17 years old I left Greece and came to the UK for studies. Starting my journey at the University of Bradford where I completed my Foundation Studies. I then moved south to Egham, Surrey where I completed my undergraduate degree in Computer Science at Royal Holloway, University of London.\n\nNow, I am working as an engineer at Fornova while also keeping myself updated with the latest technologies. I am learning React and preparing for the AWS exam.\n\n"
 }
