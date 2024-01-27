@@ -12,6 +12,7 @@
 import React, { useState } from "react";
 import { useTheme } from "@mui/material/styles";
 import './LogoAP.css';
+import {useNavigate} from "react-router-dom";
 
 function LogoAP() {
     const [isHovered, setIsHovered] = useState(false);
@@ -22,12 +23,15 @@ function LogoAP() {
         backgroundColor: isHovered ? theme.palette.primary.main : "currentColor"
     };
 
+    const navigate = useNavigate();
+
     return (
         <div
             className="logo"
             style={hoverStyle}
             onMouseEnter={() => setIsHovered(true)}
             onMouseLeave={() => setIsHovered(false)}
+            onClick={() => navigate('/')}
         ></div>
     );
 }
