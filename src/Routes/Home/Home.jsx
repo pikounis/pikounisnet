@@ -4,6 +4,7 @@ import { useTranslation } from 'react-i18next';
 import './Home.css';
 import sea from '/sea.png';
 import AboutMe from './components/AboutMe/AboutMe.jsx';
+import ContactForm from './components/ContactForm/ContactForm.jsx';
 
 function Home() {
     const { t } = useTranslation();
@@ -18,6 +19,7 @@ function Home() {
                     <img src={sea} alt="Sea" className="full-screen-img" />
                 </div>
                 <AboutMe />
+                <ContactForm />
             </div>
     );
 }

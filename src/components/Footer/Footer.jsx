@@ -15,7 +15,7 @@ function Footer() {
 
     return (
         <Box
-            className="footer"
+            // style={{paddingTop: '50px'}}
             sx={{
                 bgcolor: theme.palette.background.paper,
                 color: theme.palette.text.primary,
