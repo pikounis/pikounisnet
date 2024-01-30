@@ -1,5 +1,5 @@
 import React from "react";
-import myphoto from '../../../../../public/photo.jpg';
+import myphoto from '/photo.jpg';
 import Avatar from '@mui/material/Avatar';
 
 function Photo() {

@@ -2,7 +2,7 @@ import React from 'react';
 import { useSelector } from 'react-redux';
 import { useTranslation } from 'react-i18next';
 import './Home.css';
-import sea from '../../../public/sea.png';
+import sea from '/sea.png';
 import AboutMe from './components/AboutMe/AboutMe.jsx';
 
 function Home() {
