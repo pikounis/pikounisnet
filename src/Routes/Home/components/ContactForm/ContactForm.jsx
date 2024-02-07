@@ -7,14 +7,41 @@ import { Box, Container } from '@mui/material';
 import './ContactForm.css';
 
 function ContactForm() {
-    const { register, handleSubmit, formState: { errors } } = useForm({
-        mode: "onBlur" // Validation will trigger on the blur event
+    const { register, handleSubmit, formState: { errors }, reset } = useForm({
+        mode: "onBlur"
     });
+
 
     const onSubmit = data => {
         console.log(data);
-        // Additional logic to send data to the server
+
+        fetch('http://192.168.1.64:3001/submit-form', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(data),
+        })
+            .then(response => {
+                if (!response.ok) {
+                    // If the response is not ok, throw an error with the status text
+                    throw new Error(`HTTP error: ${response.statusText}`);
+                }
+                return response.text();
+            })
+            .then(data => {
+                console.log("Response data:", data);
+                alert('Email sent successfully!');
+                reset(); // Reset the form fields
+            })
+            .catch(error => {
+                console.error('Fetch error:', error.message);
+                alert('Failed to send email. Please try again.');
+            });
     };
+
+
+
 
     // Email validation
     const validateEmail = email => {
@@ -27,10 +54,10 @@ function ContactForm() {
     };
 
     return (
-        <div>
+        <div className="div-style">
             <Container>
                 <Box display="flex" justifyContent="center" alignItems="center" p={2}>
-                    <Paper style={{ padding: '20px', width: '100%', maxWidth: '55%' }}>
+                    <Paper className="paper-style">
                         <form onSubmit={handleSubmit(onSubmit)} noValidate>
                             <TextField
                                 label="Name"

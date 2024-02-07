@@ -44,29 +44,29 @@ function Footer() {
                 </Grid>
                 <Grid item xs={12} sm={4} container justifyContent="center" alignItems="center" spacing={2}>
                     <Grid item>
-                        <Link href="https://github.com/pikounis" color="inherit" target="_blank">
+                        <IconButton href="https://github.com/pikounis" color="inherit" target="_blank">
                             <GitHubIcon style={{ fontSize: '30px' }} />
-                        </Link>
+                        </IconButton>
                     </Grid>
                     <Grid item>
-                        <Link href="https://linkedin.com/in/pikounis" color="inherit" target="_blank">
+                        <IconButton href="https://linkedin.com/in/pikounis" color="inherit" target="_blank">
                             <LinkedInIcon style={{ fontSize: '30px' }} />
-                        </Link>
+                        </IconButton>
                     </Grid>
                     <Grid item>
-                        <Link href="mailto:anastasiospikounis@gmail.com" color="inherit" target="_blank">
+                        <IconButton href="mailto:anastasiospikounis@gmail.com" color="inherit" target="_blank">
                             <AlternateEmailIcon style={{ fontSize: '30px' }} />
-                        </Link>
+                        </IconButton>
                     </Grid>
                     <Grid item>
-                        <Link href="https://x.com/pikounaki" color="inherit" target="_blank">
+                        <IconButton href="https://x.com/pikounaki" color="inherit" target="_blank">
                             <XIcon style={{ fontSize: '30px' }} />
-                        </Link>
+                        </IconButton>
                     </Grid>
                     <Grid item>
-                        <Link href="https://open.spotify.com/user/sosat2" color="inherit" target="_blank">
+                        <IconButton href="https://open.spotify.com/user/sosat2" color="inherit" target="_blank">
                             <MusicNoteIcon style={{ fontSize: '30px' }} />
-                        </Link>
+                        </IconButton>
                     </Grid>
                 </Grid>
             </Grid>

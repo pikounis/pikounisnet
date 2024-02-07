@@ -1,0 +1,20 @@
+.paper-style {
+  padding: 20px;
+  width: 100%;
+  max-width: 55%;
+}
+
+.div-style {
+  padding-bottom: 50px;
+}
+
+
+@media screen and (max-width: 600px) {
+    .paper-style {
+        max-width: 100%;
+    }
+
+    .div-style {
+        padding-bottom: 30px;
+    }
+}

@@ -4,7 +4,9 @@ const lightTheme = createTheme({
     palette: {
         mode: 'light',
         primary: {
-            main: '#1976d2', // a shade of blue
+            main: '#5a8ec2',
+            // main: '#f50000',
+            // main: '#000000',
         },
         secondary: {
             main: '#dc004e', // a shade of pink
@@ -36,6 +38,8 @@ const darkTheme = createTheme({
         mode: 'dark',
         primary: {
             main: '#90caf9', // a lighter shade of blue for better visibility in dark mode
+            // main: '#ffffff', // a lighter shade of blue for better visibility in dark mode
+
         },
         secondary: {
             main: '#f48fb1', // a lighter shade of pink
