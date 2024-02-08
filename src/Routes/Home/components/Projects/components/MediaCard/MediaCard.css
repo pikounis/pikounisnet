@@ -1,0 +1,4 @@
+.mediaCard {
+    flex: 0 1 345px; /* Flex-grow, Flex-shrink, Flex-basis */
+    /* This ensures that cards can shrink a bit, but not grow, and start out at 345px wide */
+}

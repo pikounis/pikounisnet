@@ -1,0 +1,73 @@
+[
+  {
+    "id": 1,
+    "title": "Investment Calculator",
+    "description": "An investment calculator that calculates the future value of an investment based on the initial investment, interest rate, and number of years.",
+    "image": "https://images.pexels.com/photos/2486168/pexels-photo-2486168.jpeg",
+    "websiteUrl": "https://example.com/project1",
+    "githubUrl": "https://github.com/user/project1"
+  },
+  {
+    "id": 2,
+    "title": "Personal Website",
+    "description": "This is the project description for Project 2.",
+    "image": "https://images.pexels.com/photos/2486168/pexels-photo-2486168.jpeg",
+    "websiteUrl": "https://example.com/project2",
+    "githubUrl": "https://github.com/user/project2"
+  },
+  {
+    "id": 3,
+    "title": "Pikounis.gr",
+    "description": "This is the project description for Project 2.",
+    "image": "https://images.pexels.com/photos/2486168/pexels-photo-2486168.jpeg",
+    "websiteUrl": "https://example.com/project2",
+    "githubUrl": "https://github.com/user/project2"
+  },
+  {
+    "id": 4,
+    "title": "Rent Converter",
+    "description": "This is the project description for Project 2.",
+    "image": "https://images.pexels.com/photos/2486168/pexels-photo-2486168.jpeg",
+    "websiteUrl": "https://example.com/project2",
+    "githubUrl": "https://github.com/user/project2"
+  },
+  {
+    "id": 5,
+    "title": "Qantas Hotels Scraper",
+    "description": "This is the project description for Project 2.",
+    "image": "https://images.pexels.com/photos/2486168/pexels-photo-2486168.jpeg",
+    "githubUrl": "https://github.com/user/project2"
+  },
+  {
+    "id": 6,
+    "title": "Guest List Tracker",
+    "description": "This is the project description for Project 2.",
+    "image": "https://images.pexels.com/photos/2486168/pexels-photo-2486168.jpeg",
+    "websiteUrl": "https://example.com/project2",
+    "githubUrl": "https://github.com/user/project2"
+  },
+  {
+    "id": 7,
+    "title": "Email API ",
+    "description": "This is the project description for Project 2.",
+    "image": "https://images.pexels.com/photos/2486168/pexels-photo-2486168.jpeg",
+    "websiteUrl": "https://example.com/project2",
+    "githubUrl": "https://github.com/user/project2"
+  },
+  {
+    "id": 8,
+    "title": "Eleonora's Art Portfolio",
+    "description": "This is the project description for Project 2.",
+    "image": "https://images.pexels.com/photos/2486168/pexels-photo-2486168.jpeg",
+    "websiteUrl": "https://example.com/project2",
+    "githubUrl": "https://github.com/user/project2"
+  },
+  {
+    "id": 9,
+    "title": "Street Fighter game",
+    "description": "This is the project description for Project 2.",
+    "image": "https://images.pexels.com/photos/2486168/pexels-photo-2486168.jpeg",
+    "websiteUrl": "https://example.com/project2",
+    "githubUrl": "https://github.com/user/project2"
+  }
+]

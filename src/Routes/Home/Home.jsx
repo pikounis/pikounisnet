@@ -5,6 +5,7 @@ import './Home.css';
 import sea from '/sea.png';
 import AboutMe from './components/AboutMe/AboutMe.jsx';
 import ContactForm from './components/ContactForm/ContactForm.jsx';
+import Projects from "./components/Projects/Projects.jsx";
 
 function Home() {
     const { t } = useTranslation();
@@ -20,6 +21,7 @@ function Home() {
                 </div>
                 <AboutMe />
                 <ContactForm />
+                <Projects />
             </div>
     );
 }
