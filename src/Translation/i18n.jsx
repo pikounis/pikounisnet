@@ -6,7 +6,7 @@ import translationCN from './languages/CN/translation.json';
 import translationFR from './languages/FR/translation.json';
 import translationGR from './languages/GR/translation.json';
 import translationIN from './languages/IN/translation.json';
-import translationSP from './languages/SP/translation.json';
+import translationES from './languages/ES/translation.json';
 import translationUK from './languages/UK/translation.json';
 
 i18n
@@ -18,7 +18,7 @@ i18n
             fr: { translation: translationFR },
             gr: { translation: translationGR },
             ind: { translation: translationIN },
-            sp: { translation: translationSP },
+            es: { translation: translationES },
             uk: { translation: translationUK }
         },
         lng: 'uk',

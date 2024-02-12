@@ -1,11 +1,23 @@
 [
   {
     "id": 1,
-    "title": "Investment Calculator",
+    "title": {
+      "uk": "Investment Calculator",
+      "es": "Esta es la descripción del proyecto para el Proyecto 2.",
+      "fr": "Voici la description du projet pour le projet 2.",
+      "cn": "",
+      "gr": "",
+      "ind": "",
+      "ar": ""
+    },
     "description": {
       "uk": "An investment calculator that calculates the future value of an investment based on the initial investment, interest rate, and number of years.",
       "es": "Esta es la descripción del proyecto para el Proyecto 2.",
-      "fr": "Voici la description du projet pour le projet 2."
+      "fr": "Voici la description du projet pour le projet 2.",
+      "cn": "",
+      "gr": "",
+      "ind": "",
+      "ar": ""
     },
     "image": "https://images.pexels.com/photos/2486168/pexels-photo-2486168.jpeg",
     "websiteUrl": "https://example.com/project1",
@@ -13,11 +25,23 @@
   },
   {
     "id": 2,
-    "title": "Personal Website",
-    "description": {
-      "uk": "Here you can find the code for this website. It's a simple website build with React, using Redux for the theme and language picker.",
+    "title": {
+      "uk": "Personal Website",
       "es": "Esta es la descripción del proyecto para el Proyecto 2.",
-      "fr": "Voici la description du projet pour le projet 2."
+      "fr": "Voici la description du projet pour le projet 2.",
+      "cn": "",
+      "gr": "",
+      "ind": "",
+      "ar": ""
+    },
+    "description": {
+      "uk": "An investment calculator that calculates the future value of an investment based on the initial investment, interest rate, and number of years.",
+      "es": "Esta es la descripción del proyecto para el Proyecto 2.",
+      "fr": "Voici la description du projet pour le projet 2.",
+      "cn": "",
+      "gr": "",
+      "ind": "",
+      "ar": ""
     },
     "image": "https://images.pexels.com/photos/2486168/pexels-photo-2486168.jpeg",
     "websiteUrl": "https://example.com/project2",
@@ -25,11 +49,23 @@
   },
   {
     "id": 3,
-    "title": "Pikounis.gr",
-    "description": {
-      "uk": "Here you can find the code for this website. It's a simple website build with React, using Redux for the theme and language picker.",
+    "title": {
+      "uk": "pikounis.gr",
       "es": "Esta es la descripción del proyecto para el Proyecto 2.",
-      "fr": "Voici la description du projet pour le projet 2."
+      "fr": "Voici la description du projet pour le projet 2.",
+      "cn": "",
+      "gr": "",
+      "ind": "",
+      "ar": ""
+    },
+    "description": {
+      "uk": "An investment calculator that calculates the future value of an investment based on the initial investment, interest rate, and number of years.",
+      "es": "Esta es la descripción del proyecto para el Proyecto 2.",
+      "fr": "Voici la description du projet pour le projet 2.",
+      "cn": "",
+      "gr": "",
+      "ind": "",
+      "ar": ""
     },
     "image": "https://images.pexels.com/photos/2486168/pexels-photo-2486168.jpeg",
     "websiteUrl": "https://example.com/project2",
@@ -37,11 +73,23 @@
   },
   {
     "id": 4,
-    "title": "Rent Converter",
-    "description": {
-      "uk": "Here you can find the code for this website. It's a simple website build with React, using Redux for the theme and language picker.",
+    "title": {
+      "uk": "Rent Converter",
       "es": "Esta es la descripción del proyecto para el Proyecto 2.",
-      "fr": "Voici la description du projet pour le projet 2."
+      "fr": "Voici la description du projet pour le projet 2.",
+      "cn": "",
+      "gr": "",
+      "ind": "",
+      "ar": ""
+    },
+    "description": {
+      "uk": "An investment calculator that calculates the future value of an investment based on the initial investment, interest rate, and number of years.",
+      "es": "Esta es la descripción del proyecto para el Proyecto 2.",
+      "fr": "Voici la description du projet pour le projet 2.",
+      "cn": "",
+      "gr": "",
+      "ind": "",
+      "ar": ""
     },
     "image": "https://images.pexels.com/photos/2486168/pexels-photo-2486168.jpeg",
     "websiteUrl": "https://example.com/project2",
@@ -49,22 +97,46 @@
   },
   {
     "id": 5,
-    "title": "Qantas Hotels Scraper",
-    "description": {
-      "uk": "Here you can find the code for this website. It's a simple website build with React, using Redux for the theme and language picker.",
+    "title": {
+      "uk": "Qantas Hotels Scraper",
       "es": "Esta es la descripción del proyecto para el Proyecto 2.",
-      "fr": "Voici la description du projet pour le projet 2."
+      "fr": "Voici la description du projet pour le projet 2.",
+      "cn": "",
+      "gr": "",
+      "ind": "",
+      "ar": ""
+    },
+    "description": {
+      "uk": "An investment calculator that calculates the future value of an investment based on the initial investment, interest rate, and number of years.",
+      "es": "Esta es la descripción del proyecto para el Proyecto 2.",
+      "fr": "Voici la description du projet pour le projet 2.",
+      "cn": "",
+      "gr": "",
+      "ind": "",
+      "ar": ""
     },
     "image": "https://images.pexels.com/photos/2486168/pexels-photo-2486168.jpeg",
     "githubUrl": "https://github.com/user/project2"
   },
   {
     "id": 6,
-    "title": "Guest List Tracker",
-    "description": {
-      "uk": "Here you can find the code for this website. It's a simple website build with React, using Redux for the theme and language picker.",
+    "title": {
+      "uk": "Guest List Tracker",
       "es": "Esta es la descripción del proyecto para el Proyecto 2.",
-      "fr": "Voici la description du projet pour le projet 2."
+      "fr": "Voici la description du projet pour le projet 2.",
+      "cn": "",
+      "gr": "",
+      "ind": "",
+      "ar": ""
+    },
+    "description": {
+      "uk": "An investment calculator that calculates the future value of an investment based on the initial investment, interest rate, and number of years.",
+      "es": "Esta es la descripción del proyecto para el Proyecto 2.",
+      "fr": "Voici la description du projet pour le projet 2.",
+      "cn": "",
+      "gr": "",
+      "ind": "",
+      "ar": ""
     },
     "image": "https://images.pexels.com/photos/2486168/pexels-photo-2486168.jpeg",
     "websiteUrl": "https://example.com/project2",
@@ -72,11 +144,23 @@
   },
   {
     "id": 7,
-    "title": "Email API ",
-    "description": {
-      "uk": "Here you can find the code for this website. It's a simple website build with React, using Redux for the theme and language picker.",
+    "title": {
+      "uk": "Email API",
       "es": "Esta es la descripción del proyecto para el Proyecto 2.",
-      "fr": "Voici la description du projet pour le projet 2."
+      "fr": "Voici la description du projet pour le projet 2.",
+      "cn": "",
+      "gr": "",
+      "ind": "",
+      "ar": ""
+    },
+    "description": {
+      "uk": "An investment calculator that calculates the future value of an investment based on the initial investment, interest rate, and number of years.",
+      "es": "Esta es la descripción del proyecto para el Proyecto 2.",
+      "fr": "Voici la description du projet pour le projet 2.",
+      "cn": "",
+      "gr": "",
+      "ind": "",
+      "ar": ""
     },
     "image": "https://images.pexels.com/photos/2486168/pexels-photo-2486168.jpeg",
     "websiteUrl": "https://example.com/project2",
@@ -84,11 +168,23 @@
   },
   {
     "id": 8,
-    "title": "Eleonora's Art Portfolio",
-    "description": {
-      "uk": "Here you can find the code for this website. It's a simple website build with React, using Redux for the theme and language picker.",
+    "title": {
+      "uk": "Eleonora's Art Portofolio",
       "es": "Esta es la descripción del proyecto para el Proyecto 2.",
-      "fr": "Voici la description du projet pour le projet 2."
+      "fr": "Voici la description du projet pour le projet 2.",
+      "cn": "",
+      "gr": "",
+      "ind": "",
+      "ar": ""
+    },
+    "description": {
+      "uk": "An investment calculator that calculates the future value of an investment based on the initial investment, interest rate, and number of years.",
+      "es": "Esta es la descripción del proyecto para el Proyecto 2.",
+      "fr": "Voici la description du projet pour le projet 2.",
+      "cn": "",
+      "gr": "",
+      "ind": "",
+      "ar": ""
     },
     "image": "https://images.pexels.com/photos/2486168/pexels-photo-2486168.jpeg",
     "websiteUrl": "https://example.com/project2",
@@ -96,11 +192,23 @@
   },
   {
     "id": 9,
-    "title": "Street Fighter game",
+    "title": {
+      "uk": "Python Game",
+      "es": "Esta es la descripción del proyecto para el Proyecto 2.",
+      "fr": "Voici la description du projet pour le projet 2.",
+      "cn": "",
+      "gr": "",
+      "ind": "",
+      "ar": ""
+    },
     "description": {
       "uk": "An investment calculator that calculates the future value of an investment based on the initial investment, interest rate, and number of years.",
       "es": "Esta es la descripción del proyecto para el Proyecto 2.",
-      "fr": "Voici la description du projet pour le projet 2."
+      "fr": "Voici la description du projet pour le projet 2.",
+      "cn": "",
+      "gr": "",
+      "ind": "",
+      "ar": ""
     },
     "image": "https://images.pexels.com/photos/2486168/pexels-photo-2486168.jpeg",
     "websiteUrl": "https://example.com/project2",

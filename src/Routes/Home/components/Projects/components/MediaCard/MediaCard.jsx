@@ -26,7 +26,9 @@ function MediaCard({ title, description, image, websiteUrl, githubUrl }) {
                 {websiteUrl && (
                     <Button size="small" href={websiteUrl} target="_blank">Website</Button>
                 )}
-                <Button size="small" href={githubUrl} target="_blank">GitHub</Button>
+                {githubUrl && (
+                    <Button size="small" href={githubUrl} target="_blank">GitHub</Button>
+                )}
             </CardActions>
         </Card>
     );

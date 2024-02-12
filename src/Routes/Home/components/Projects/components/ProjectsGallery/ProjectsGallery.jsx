@@ -12,12 +12,13 @@ function ProjectsGallery() {
             {projects.map((project) => {
                 // Determine the current language and select the corresponding description
                 const currentLang = i18n.language;
+                const title = project.title[currentLang] || project.title.uk;
                 const description = project.description[currentLang] || project.description.uk; // Fallback to English if the current language description is not available
 
                 return (
                     <MediaCard
                         key={project.id}
-                        title={project.title}
+                        title={title}
                         description={description} // Pass the selected description directly
                         image={project.image}
                         websiteUrl={project.websiteUrl}
