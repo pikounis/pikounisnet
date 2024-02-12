@@ -19,7 +19,7 @@
       "ind": "",
       "ar": ""
     },
-    "technologies": ["Python", "Java", "React"],
+    "technologies": ["React", "firebase"],
     "image": "https://images.pexels.com/photos/2486168/pexels-photo-2486168.jpeg",
     "websiteUrl": "https://example.com/project1",
     "githubUrl": "https://github.com/user/project1"
@@ -44,7 +44,7 @@
       "ind": "",
       "ar": ""
     },
-    "technologies": ["React", "Redux", "mui", "nodejs", "vercel"],
+    "technologies": ["React", "Redux", "nodejs", "vercel", "express"],
     "image": "https://images.pexels.com/photos/2486168/pexels-photo-2486168.jpeg",
     "websiteUrl": "https://example.com/project2",
     "githubUrl": "https://github.com/user/project2"
@@ -69,7 +69,7 @@
       "ind": "",
       "ar": ""
     },
-    "technologies": ["Python", "Java", "React"],
+    "technologies": ["vim", "typescript", "tensorflow", "selenium"],
     "image": "https://images.pexels.com/photos/2486168/pexels-photo-2486168.jpeg",
     "websiteUrl": "https://example.com/project2",
     "githubUrl": "https://github.com/user/project2"
@@ -94,7 +94,7 @@
       "ind": "",
       "ar": ""
     },
-    "technologies": ["Python", "Java", "React"],
+    "technologies": ["express", "firebase", "jira", "nextjs"],
     "image": "https://images.pexels.com/photos/2486168/pexels-photo-2486168.jpeg",
     "websiteUrl": "https://example.com/project2",
     "githubUrl": "https://github.com/user/project2"
@@ -119,7 +119,7 @@
       "ind": "",
       "ar": ""
     },
-    "technologies": ["Python", "Java", "React"],
+    "technologies": ["Python", "json", "React"],
     "image": "https://images.pexels.com/photos/2486168/pexels-photo-2486168.jpeg",
     "githubUrl": "https://github.com/user/project2"
   },
