@@ -5,8 +5,9 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
+import DevIcon from '../DevIcon/DevIcon.jsx';
 
-function MediaCard({ title, description, image, websiteUrl, githubUrl }) {
+function MediaCard({ title, description, image, websiteUrl, githubUrl, technologies }) {
     return (
         <Card sx={{ maxWidth: 345 }}>
             <CardMedia
@@ -18,9 +19,15 @@ function MediaCard({ title, description, image, websiteUrl, githubUrl }) {
                 <Typography gutterBottom variant="h5" component="div">
                     {title}
                 </Typography>
-                <Typography variant="body2" color="text.secondary">
+                <Typography variant="body2" color="text.secondary" style={{ marginBottom: '1rem' }}>
                     {description}
                 </Typography>
+                {/* Technology icons */}
+                <div style={{ display: 'flex', flexWrap: 'wrap', gap: '10px' }}>
+                    {technologies && technologies.map((tech, index) => (
+                        <DevIcon key={index} technology={tech} />
+                    ))}
+                </div>
             </CardContent>
             <CardActions>
                 {websiteUrl && (
@@ -33,6 +40,5 @@ function MediaCard({ title, description, image, websiteUrl, githubUrl }) {
         </Card>
     );
 }
-
 
 export default MediaCard;

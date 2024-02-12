@@ -19,6 +19,7 @@
       "ind": "",
       "ar": ""
     },
+    "technologies": ["Python", "Java", "React"],
     "image": "https://images.pexels.com/photos/2486168/pexels-photo-2486168.jpeg",
     "websiteUrl": "https://example.com/project1",
     "githubUrl": "https://github.com/user/project1"
@@ -43,6 +44,7 @@
       "ind": "",
       "ar": ""
     },
+    "technologies": ["React", "Redux", "mui", "nodejs", "vercel"],
     "image": "https://images.pexels.com/photos/2486168/pexels-photo-2486168.jpeg",
     "websiteUrl": "https://example.com/project2",
     "githubUrl": "https://github.com/user/project2"
@@ -67,6 +69,7 @@
       "ind": "",
       "ar": ""
     },
+    "technologies": ["Python", "Java", "React"],
     "image": "https://images.pexels.com/photos/2486168/pexels-photo-2486168.jpeg",
     "websiteUrl": "https://example.com/project2",
     "githubUrl": "https://github.com/user/project2"
@@ -91,6 +94,7 @@
       "ind": "",
       "ar": ""
     },
+    "technologies": ["Python", "Java", "React"],
     "image": "https://images.pexels.com/photos/2486168/pexels-photo-2486168.jpeg",
     "websiteUrl": "https://example.com/project2",
     "githubUrl": "https://github.com/user/project2"
@@ -115,6 +119,7 @@
       "ind": "",
       "ar": ""
     },
+    "technologies": ["Python", "Java", "React"],
     "image": "https://images.pexels.com/photos/2486168/pexels-photo-2486168.jpeg",
     "githubUrl": "https://github.com/user/project2"
   },
@@ -138,6 +143,7 @@
       "ind": "",
       "ar": ""
     },
+    "technologies": ["Python", "Java", "React"],
     "image": "https://images.pexels.com/photos/2486168/pexels-photo-2486168.jpeg",
     "websiteUrl": "https://example.com/project2",
     "githubUrl": "https://github.com/user/project2"
@@ -162,6 +168,7 @@
       "ind": "",
       "ar": ""
     },
+    "technologies": ["Python", "Java", "React"],
     "image": "https://images.pexels.com/photos/2486168/pexels-photo-2486168.jpeg",
     "websiteUrl": "https://example.com/project2",
     "githubUrl": "https://github.com/user/project2"
@@ -186,6 +193,7 @@
       "ind": "",
       "ar": ""
     },
+    "technologies": ["Python", "Java", "React"],
     "image": "https://images.pexels.com/photos/2486168/pexels-photo-2486168.jpeg",
     "websiteUrl": "https://example.com/project2",
     "githubUrl": "https://github.com/user/project2"
@@ -210,6 +218,7 @@
       "ind": "",
       "ar": ""
     },
+    "technologies": ["Python", "Java", "React"],
     "image": "https://images.pexels.com/photos/2486168/pexels-photo-2486168.jpeg",
     "websiteUrl": "https://example.com/project2",
     "githubUrl": "https://github.com/user/project2"
