@@ -19,8 +19,8 @@
       "ind": "",
       "ar": ""
     },
-    "technologies": ["React", "firebase"],
-    "image": "https://images.pexels.com/photos/2486168/pexels-photo-2486168.jpeg",
+    "technologies": ["React", "Firebase"],
+    "image": "https://pikounisnet-express-backend.vercel.app/assets/projects/ic.png",
     "websiteUrl": "https://example.com/project1",
     "githubUrl": "https://github.com/user/project1"
   },
@@ -44,8 +44,8 @@
       "ind": "",
       "ar": ""
     },
-    "technologies": ["React", "Redux", "nodejs", "vercel", "express"],
-    "image": "https://images.pexels.com/photos/2486168/pexels-photo-2486168.jpeg",
+    "technologies": ["React", "Redux", "NodeJS", "Vercel", "express"],
+    "image": "https://pikounisnet-express-backend.vercel.app/assets/projects/sea.png",
     "websiteUrl": "https://example.com/project2",
     "githubUrl": "https://github.com/user/project2"
   },
@@ -69,8 +69,8 @@
       "ind": "",
       "ar": ""
     },
-    "technologies": ["vim", "typescript", "tensorflow", "selenium"],
-    "image": "https://images.pexels.com/photos/2486168/pexels-photo-2486168.jpeg",
+    "technologies": ["React", "mui"],
+    "image": "https://pikounisnet-express-backend.vercel.app/assets/projects/pikounis-logo.png",
     "websiteUrl": "https://example.com/project2",
     "githubUrl": "https://github.com/user/project2"
   },
@@ -94,8 +94,8 @@
       "ind": "",
       "ar": ""
     },
-    "technologies": ["express", "firebase", "jira", "nextjs"],
-    "image": "https://images.pexels.com/photos/2486168/pexels-photo-2486168.jpeg",
+    "technologies": ["React", "Firebase"],
+    "image": "https://pikounisnet-express-backend.vercel.app/assets/projects/rent.png",
     "websiteUrl": "https://example.com/project2",
     "githubUrl": "https://github.com/user/project2"
   },
@@ -119,8 +119,8 @@
       "ind": "",
       "ar": ""
     },
-    "technologies": ["Python", "json"],
-    "image": "https://images.pexels.com/photos/2486168/pexels-photo-2486168.jpeg",
+    "technologies": ["Python", "JSON"],
+    "image": "https://pikounisnet-express-backend.vercel.app/assets/projects/qantas-new.jpeg",
     "githubUrl": "https://github.com/user/project2"
   },
   {
@@ -143,7 +143,7 @@
       "ind": "",
       "ar": ""
     },
-    "technologies": ["Python", "Java", "React"],
+    "technologies": ["React", "Firebase", "MongoDB"],
     "image": "https://images.pexels.com/photos/2486168/pexels-photo-2486168.jpeg",
     "websiteUrl": "https://example.com/project2",
     "githubUrl": "https://github.com/user/project2"
@@ -168,8 +168,8 @@
       "ind": "",
       "ar": ""
     },
-    "technologies": ["Python", "Java", "React"],
-    "image": "https://images.pexels.com/photos/2486168/pexels-photo-2486168.jpeg",
+    "technologies": ["NodeJS", "Vercel", "GoogleCloud"],
+    "image": "https://pikounisnet-express-backend.vercel.app/assets/projects/holafly.svg",
     "websiteUrl": "https://example.com/project2",
     "githubUrl": "https://github.com/user/project2"
   },
@@ -193,33 +193,8 @@
       "ind": "",
       "ar": ""
     },
-    "technologies": ["Python", "Java", "React"],
-    "image": "https://images.pexels.com/photos/2486168/pexels-photo-2486168.jpeg",
-    "websiteUrl": "https://example.com/project2",
-    "githubUrl": "https://github.com/user/project2"
-  },
-  {
-    "id": 9,
-    "title": {
-      "uk": "Python Game",
-      "es": "Esta es la descripción del proyecto para el Proyecto 2.",
-      "fr": "Voici la description du projet pour le projet 2.",
-      "cn": "",
-      "gr": "",
-      "ind": "",
-      "ar": ""
-    },
-    "description": {
-      "uk": "An investment calculator that calculates the future value of an investment based on the initial investment, interest rate, and number of years.",
-      "es": "Esta es la descripción del proyecto para el Proyecto 2.",
-      "fr": "Voici la description du projet pour le projet 2.",
-      "cn": "",
-      "gr": "",
-      "ind": "",
-      "ar": ""
-    },
-    "technologies": ["Python", "Java", "React"],
-    "image": "https://images.pexels.com/photos/2486168/pexels-photo-2486168.jpeg",
+    "technologies": ["React", "Mui"],
+    "image": "https://pikounisnet-express-backend.vercel.app/assets/projects/eleonora.jpeg",
     "websiteUrl": "https://example.com/project2",
     "githubUrl": "https://github.com/user/project2"
   }

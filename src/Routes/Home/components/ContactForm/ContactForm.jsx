@@ -11,33 +11,40 @@ function ContactForm() {
         mode: "onBlur"
     });
 
-
-    const onSubmit = data => {
+    const onSubmit = async (data) => {
         console.log(data);
 
-        fetch('http://192.168.1.64:3001/submit-form', {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json',
-            },
-            body: JSON.stringify(data),
-        })
-            .then(response => {
-                if (!response.ok) {
-                    // If the response is not ok, throw an error with the status text
-                    throw new Error(`HTTP error: ${response.statusText}`);
-                }
-                return response.text();
-            })
-            .then(data => {
-                console.log("Response data:", data);
-                alert('Email sent successfully!');
-                reset(); // Reset the form fields
-            })
-            .catch(error => {
-                console.error('Fetch error:', error.message);
-                alert('Failed to send email. Please try again.');
+        try {
+            const response = await fetch('https://pikounisnet-express-backend.vercel.app/api/submit-form', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(data),
             });
+
+            if (!response.ok) {
+                // If the response is not ok, throw an error with the status
+                throw new Error(`HTTP error: Status ${response.status}`);
+            }
+
+            // Assuming your server might return non-JSON responses, handle both cases
+            const contentType = response.headers.get("Content-Type");
+            let responseData;
+            if (contentType && contentType.indexOf("application/json") !== -1) {
+                responseData = await response.json(); // Process JSON data
+            } else {
+                responseData = await response.text(); // Process text/plain data
+            }
+
+            console.log("Response data:", responseData);
+            alert('Email sent successfully!');
+            reset(); // Reset the form fields after successful submission
+        } catch (error) {
+            console.error('Fetch error:', error.message);
+            // It's better to be specific about the error message here
+            alert(`Failed to send email. Please try again. Error: ${error.message}`);
+        }
     };
 
 
