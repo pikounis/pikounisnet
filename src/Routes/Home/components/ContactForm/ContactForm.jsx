@@ -5,6 +5,7 @@ import Button from '@mui/material/Button';
 import Paper from '@mui/material/Paper';
 import { Box, Container } from '@mui/material';
 import './ContactForm.css';
+import Typography from "@mui/material/Typography";
 
 function ContactForm() {
     const { register, handleSubmit, formState: { errors }, reset } = useForm({
@@ -62,6 +63,7 @@ function ContactForm() {
 
     return (
         <div className="div-style">
+            <Typography variant="h2">Contact</Typography>
             <Container>
                 <Box display="flex" justifyContent="center" alignItems="center" p={2}>
                     <Paper className="paper-style">

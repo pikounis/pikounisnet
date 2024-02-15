@@ -4,7 +4,7 @@ import { lightTheme, darkTheme, blueTheme, redTheme } from '../src/Theme/Theme.j
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import Home from '../src/Routes/Home/Home.jsx';
-import About from '../src/Routes/About/About.jsx';
+import Timeline from './Routes/Timeline/Timeline.jsx';
 import { useSelector } from 'react-redux';
 import ButtonAppBar from "./components/ButtonAppBar/ButtonAppBar.jsx";
 import LanguageSynchronizer from '../src/Translation/LanguageSynchronizer.jsx';
@@ -37,7 +37,7 @@ function App() {
                 <ButtonAppBar />
                 <Routes>
                     <Route path="/" element={<Home />} />
-                    <Route path="/about" element={<About />} />
+                    <Route path="/timeline" element={<Timeline />} />
                     <Route path="*" element={<Home />} /> {/* 404 route */}
                 </Routes>
                 <Footer />

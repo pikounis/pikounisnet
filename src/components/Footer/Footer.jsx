@@ -8,13 +8,14 @@ import XIcon from '@mui/icons-material/X';
 import MusicNoteIcon from '@mui/icons-material/MusicNote';
 import ExpandLessIcon from '@mui/icons-material/ExpandLess';
 import IconButton from '@mui/material/IconButton';
+import ThemeMenu from "../ButtonAppBar/components/ThemeMenu/ThemeMenu.jsx";
 import './Footer.css';
 
 function Footer() {
     const theme = useTheme();
 
     return (
-        <div style={{ paddingTop: 100 }}>
+        <div >
             <Box
                 // style={{paddingTop: '50px'}}
                 sx={{
@@ -59,9 +60,10 @@ function Footer() {
                         {/*    </IconButton>*/}
                         {/*</Grid>*/}
                         <Grid item>
-                            <IconButton href="https://x.com/pikounaki" color="inherit" target="_blank">
-                                <XIcon style={{ fontSize: '30px' }} />
-                            </IconButton>
+                            {/*<IconButton href="https://x.com/pikounaki" color="inherit" target="_blank">*/}
+                            {/*    <XIcon style={{ fontSize: '30px' }} />*/}
+                            {/*</IconButton>*/}
+                            <ThemeMenu />
                         </Grid>
                         <Grid item>
                             <IconButton href="https://open.spotify.com/user/sosat2" color="inherit" target="_blank">

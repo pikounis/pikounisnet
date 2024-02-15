@@ -20,7 +20,7 @@ function ButtonAppBar() {
                     <LogoAP />
                     <div>
                         <Button color="inherit" onClick={() => navigate('/')}>Home</Button>
-                        <Button color="inherit" onClick={() => navigate('/about')}>About</Button>
+                        <Button color="inherit" onClick={() => navigate('/timeline')}>Timeline</Button>
                     </div>
                     <div className="right-div"> {/* Ensure inline display */}
                         <LanguagePicker />

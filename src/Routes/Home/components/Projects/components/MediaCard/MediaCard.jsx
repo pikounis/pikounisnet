@@ -9,6 +9,7 @@ import DevIcon from '../DevIcon/DevIcon.jsx';
 import IconButton from "@mui/material/IconButton";
 import LinkIcon from '@mui/icons-material/Link';
 import GitHubIcon from '@mui/icons-material/GitHub';
+import OpenInNewIcon from '@mui/icons-material/OpenInNew';
 
 function MediaCard({ title, description, image, websiteUrl, githubUrl, technologies }) {
     return (
@@ -33,17 +34,17 @@ function MediaCard({ title, description, image, websiteUrl, githubUrl, technolog
                 </div>
             </CardContent>
             <CardActions>
+                {githubUrl && (
+                    <IconButton href={githubUrl} color="inherit" target="_blank">
+                        <GitHubIcon style={{ fontSize: '30px' }} />
+                    </IconButton>
+                    // <Button size="small" href={githubUrl} target="_blank">GitHub</Button>
+                )}
                 {websiteUrl && (
                     <IconButton href={websiteUrl} color="inherit" target="_blank">
                         <LinkIcon style={{ fontSize: '30px' }} />
                     </IconButton>
                     // <Button size="small" href={websiteUrl} target="_blank">Website</Button>
-                )}
-                {githubUrl && (
-                    <IconButton href={websiteUrl} color="inherit" target="_blank">
-                        <GitHubIcon style={{ fontSize: '30px' }} />
-                    </IconButton>
-                    // <Button size="small" href={githubUrl} target="_blank">GitHub</Button>
                 )}
             </CardActions>
         </Card>

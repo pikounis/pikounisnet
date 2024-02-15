@@ -92,6 +92,15 @@ const blueTheme = createTheme({
         // You can define additional color shades here
     },
     // Additional customizations
+    components: {
+        MuiAppBar: {
+            styleOverrides: {
+                root: {
+                    backgroundColor: '#000000', // Set the color for AppBar in light theme
+                },
+            },
+        },
+    },
 });
 
 const redTheme = createTheme({
@@ -115,8 +124,18 @@ const redTheme = createTheme({
             secondary: '#e57373', // softer red for secondary text
         },
         // Additional color shades can be defined here
+
     },
     // Additional customizations
+    components: {
+        MuiAppBar: {
+            styleOverrides: {
+                root: {
+                    backgroundColor: '#000000', // Set the color for AppBar in light theme
+                },
+            },
+        },
+    },
 });
 
 export { lightTheme, darkTheme, blueTheme, redTheme };

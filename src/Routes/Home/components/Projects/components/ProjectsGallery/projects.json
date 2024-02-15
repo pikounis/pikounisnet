@@ -3,8 +3,8 @@
     "id": 1,
     "title": {
       "uk": "Investment Calculator",
-      "es": "Esta es la descripción del proyecto para el Proyecto 2.",
-      "fr": "Voici la description du projet pour le projet 2.",
+      "es": "",
+      "fr": "",
       "cn": "",
       "gr": "",
       "ind": "",
@@ -12,8 +12,8 @@
     },
     "description": {
       "uk": "An investment calculator that calculates the future value of an investment based on the initial investment, interest rate, and number of years.",
-      "es": "Esta es la descripción del proyecto para el Proyecto 2.",
-      "fr": "Voici la description du projet pour le projet 2.",
+      "es": "",
+      "fr": "",
       "cn": "",
       "gr": "",
       "ind": "",
@@ -21,24 +21,24 @@
     },
     "technologies": ["React", "Firebase"],
     "image": "https://pikounisnet-express-backend.vercel.app/assets/projects/ic.png",
-    "websiteUrl": "https://example.com/project1",
-    "githubUrl": "https://github.com/user/project1"
+    "websiteUrl": "https://investment-calculator-e5b7c.web.app/",
+    "githubUrl": "https://github.com/pikounis/investment_calculator"
   },
   {
     "id": 2,
     "title": {
       "uk": "Personal Website",
-      "es": "Esta es la descripción del proyecto para el Proyecto 2.",
-      "fr": "Voici la description du projet pour le projet 2.",
+      "es": "",
+      "fr": "",
       "cn": "",
       "gr": "",
       "ind": "",
       "ar": ""
     },
     "description": {
-      "uk": "An investment calculator that calculates the future value of an investment based on the initial investment, interest rate, and number of years.",
-      "es": "Esta es la descripción del proyecto para el Proyecto 2.",
-      "fr": "Voici la description du projet pour le projet 2.",
+      "uk": "Personal website that showcases my projects and skills. The frontend is made with React and Redux, and the backend (contact form) is made with NodeJS and Express.",
+      "es": "",
+      "fr": "",
       "cn": "",
       "gr": "",
       "ind": "",
@@ -53,17 +53,17 @@
     "id": 3,
     "title": {
       "uk": "pikounis.gr",
-      "es": "Esta es la descripción del proyecto para el Proyecto 2.",
-      "fr": "Voici la description du projet pour le projet 2.",
+      "es": "",
+      "fr": "",
       "cn": "",
       "gr": "",
       "ind": "",
       "ar": ""
     },
     "description": {
-      "uk": "An investment calculator that calculates the future value of an investment based on the initial investment, interest rate, and number of years.",
-      "es": "Esta es la descripción del proyecto para el Proyecto 2.",
-      "fr": "Voici la description du projet pour le projet 2.",
+      "uk": "Website for my family's business. It showcases the services and products of the business. It's made with React and Material-UI.",
+      "es": "",
+      "fr": "",
       "cn": "",
       "gr": "",
       "ind": "",
@@ -71,24 +71,24 @@
     },
     "technologies": ["React", "mui"],
     "image": "https://pikounisnet-express-backend.vercel.app/assets/projects/pikounis-logo.png",
-    "websiteUrl": "https://example.com/project2",
-    "githubUrl": "https://github.com/user/project2"
+    "websiteUrl": "https://pikounis.gr",
+    "githubUrl": "https://github.com/pikounis/pikounisgr-website"
   },
   {
     "id": 4,
     "title": {
       "uk": "Rent Converter",
-      "es": "Esta es la descripción del proyecto para el Proyecto 2.",
-      "fr": "Voici la description du projet pour le projet 2.",
+      "es": "",
+      "fr": "",
       "cn": "",
       "gr": "",
       "ind": "",
       "ar": ""
     },
     "description": {
-      "uk": "An investment calculator that calculates the future value of an investment based on the initial investment, interest rate, and number of years.",
-      "es": "Esta es la descripción del proyecto para el Proyecto 2.",
-      "fr": "Voici la description du projet pour le projet 2.",
+      "uk": "Very simple project, it converts rent prices from weekly to monthly and vice versa.",
+      "es": "",
+      "fr": "",
       "cn": "",
       "gr": "",
       "ind": "",
@@ -96,24 +96,24 @@
     },
     "technologies": ["React", "Firebase"],
     "image": "https://pikounisnet-express-backend.vercel.app/assets/projects/rent.png",
-    "websiteUrl": "https://example.com/project2",
-    "githubUrl": "https://github.com/user/project2"
+    "websiteUrl": "https://rent-3b02c.web.app/",
+    "githubUrl": "https://github.com/pikounis/rent2"
   },
   {
     "id": 5,
     "title": {
       "uk": "Qantas Hotels Scraper",
-      "es": "Esta es la descripción del proyecto para el Proyecto 2.",
-      "fr": "Voici la description du projet pour le projet 2.",
+      "es": "",
+      "fr": "",
       "cn": "",
       "gr": "",
       "ind": "",
       "ar": ""
     },
     "description": {
-      "uk": "An investment calculator that calculates the future value of an investment based on the initial investment, interest rate, and number of years.",
-      "es": "Esta es la descripción del proyecto para el Proyecto 2.",
-      "fr": "Voici la description du projet pour le projet 2.",
+      "uk": "This is a web scraper that scrapes Qantas Hotels for hotel prices and detail from a JSON file.",
+      "es": "",
+      "fr": "",
       "cn": "",
       "gr": "",
       "ind": "",
@@ -121,23 +121,24 @@
     },
     "technologies": ["Python", "JSON"],
     "image": "https://pikounisnet-express-backend.vercel.app/assets/projects/qantas-new.jpeg",
-    "githubUrl": "https://github.com/user/project2"
+    "websiteUrl": "",
+    "githubUrl": "https://github.com/pikounis/qantas_scrape_requests"
   },
   {
     "id": 6,
     "title": {
       "uk": "Guest List Tracker",
-      "es": "Esta es la descripción del proyecto para el Proyecto 2.",
-      "fr": "Voici la description du projet pour le projet 2.",
+      "es": "",
+      "fr": "",
       "cn": "",
       "gr": "",
       "ind": "",
       "ar": ""
     },
     "description": {
-      "uk": "An investment calculator that calculates the future value of an investment based on the initial investment, interest rate, and number of years.",
-      "es": "Esta es la descripción del proyecto para el Proyecto 2.",
-      "fr": "Voici la description du projet pour le projet 2.",
+      "uk": "Made this webapp to easily track which guests are going to come to a gathering. It tracks who said yes/no as well as who arrived. It saves everything to firestore and has multiple users.",
+      "es": "",
+      "fr": "",
       "cn": "",
       "gr": "",
       "ind": "",
@@ -145,24 +146,24 @@
     },
     "technologies": ["React", "Firebase", "MongoDB"],
     "image": "https://images.pexels.com/photos/2486168/pexels-photo-2486168.jpeg",
-    "websiteUrl": "https://example.com/project2",
-    "githubUrl": "https://github.com/user/project2"
+    "websiteUrl": "",
+    "githubUrl": ""
   },
   {
     "id": 7,
     "title": {
       "uk": "Holafly Scraper",
-      "es": "Esta es la descripción del proyecto para el Proyecto 2.",
-      "fr": "Voici la description du projet pour le projet 2.",
+      "es": "",
+      "fr": "",
       "cn": "",
       "gr": "",
       "ind": "",
       "ar": ""
     },
     "description": {
-      "uk": "An investment calculator that calculates the future value of an investment based on the initial investment, interest rate, and number of years.",
-      "es": "Esta es la descripción del proyecto para el Proyecto 2.",
-      "fr": "Voici la description du projet pour le projet 2.",
+      "uk": "Scrapes Holafly for SIM card prices and detail from a JSON file. It scrapes over 160 countries and all their data plans.",
+      "es": "",
+      "fr": "",
       "cn": "",
       "gr": "",
       "ind": "",
@@ -177,17 +178,17 @@
     "id": 8,
     "title": {
       "uk": "Eleonora's Art Portofolio",
-      "es": "Esta es la descripción del proyecto para el Proyecto 2.",
-      "fr": "Voici la description du projet pour le projet 2.",
+      "es": "",
+      "fr": "",
       "cn": "",
       "gr": "",
       "ind": "",
       "ar": ""
     },
     "description": {
-      "uk": "An investment calculator that calculates the future value of an investment based on the initial investment, interest rate, and number of years.",
-      "es": "Esta es la descripción del proyecto para el Proyecto 2.",
-      "fr": "Voici la description du projet pour le projet 2.",
+      "uk": "React website that showcases art pieces. It has a gallery and a contact form build with KOA. Also, it has a CMS build with Netlify so the artist can easily add new art pieces.",
+      "es": "",
+      "fr": "",
       "cn": "",
       "gr": "",
       "ind": "",
@@ -195,7 +196,7 @@
     },
     "technologies": ["React", "Mui"],
     "image": "https://pikounisnet-express-backend.vercel.app/assets/projects/eleonora.jpeg",
-    "websiteUrl": "https://example.com/project2",
-    "githubUrl": "https://github.com/user/project2"
+    "websiteUrl": "",
+    "githubUrl": "https://github.com/pikounis/eleonora"
   }
 ]
