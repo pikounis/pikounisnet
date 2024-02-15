@@ -151,7 +151,7 @@
   {
     "id": 7,
     "title": {
-      "uk": "Email API",
+      "uk": "Holafly Scraper",
       "es": "Esta es la descripción del proyecto para el Proyecto 2.",
       "fr": "Voici la description du projet pour le projet 2.",
       "cn": "",
@@ -168,10 +168,10 @@
       "ind": "",
       "ar": ""
     },
-    "technologies": ["NodeJS", "Vercel", "GoogleCloud"],
+    "technologies": ["Python", "JSON"],
     "image": "https://pikounisnet-express-backend.vercel.app/assets/projects/holafly.svg",
-    "websiteUrl": "https://example.com/project2",
-    "githubUrl": "https://github.com/user/project2"
+    "websiteUrl": "",
+    "githubUrl": "https://github.com/pikounis/holafly-scraper"
   },
   {
     "id": 8,
