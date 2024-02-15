@@ -1,0 +1,233 @@
+[
+  {
+    "id": 1,
+    "title": {
+      "uk": "Reshape the universe to our preferences",
+      "es": "Remodelar el universo según nuestras preferencias.",
+      "fr": "Remodeler l'univers selon nos préférences",
+      "cn": "按照我们的喜好重塑宇宙",
+      "gr": "Αναδιαμορφώστε το σύμπαν σύμφωνα με τις προτιμήσεις μας",
+      "ind": "ब्रह्मांड को हमारी प्राथमिकताओं के अनुसार नया आकार दें",
+      "ar": "إعادة تشكيل الكون لتفضيلاتنا"
+    },
+    "bulletPoints": [
+      {
+        "uk": "Technology, which is really knowledge, enables this",
+        "es": "La tecnología, que es realmente conocimiento, permite esto.",
+        "fr": "La technologie, qui est en réalité une connaissance, permet cela",
+        "cn": "技术，即真正的知识，使这成为可能",
+        "gr": "Η τεχνολογία, που είναι πραγματικά γνώση, το επιτρέπει",
+        "ind": "प्रौद्योगिकी, जो वास्तव में ज्ञान है, इसे सक्षम बनाती है",
+        "ar": "التكنولوجيا، التي هي في الحقيقة المعرفة، تمكننا من تحقيق ذلك"
+      },
+      {
+        "uk": "You should probably work on raising the ceiling, not the floor",
+        "es": "Probablemente deberías trabajar para elevar el techo, no el piso.",
+        "fr": "Vous devriez probablement travailler à surélever le plafond, pas le sol",
+        "cn": "你可能应该努力提高天花板，而不是地板",
+        "gr": "Μάλλον θα πρέπει να εργαστείτε για την ανύψωση της οροφής, όχι του δαπέδου",
+        "ind": "आपको संभवतः छत को ऊपर उठाने पर काम करना चाहिए, न कि फर्श पर",
+        "ar": "ربما ينبغي عليك العمل على رفع السقف وليس الأرضية"
+      },
+      {
+        "uk": "Our time is limited",
+        "es": "Nuestro tiempo es limitado",
+        "fr": "Notre temps est limité",
+        "cn": "我们的时间有限",
+        "gr": "Ο χρόνος μας είναι περιορισμένος",
+        "ind": "हमारा समय सीमित है",
+        "ar": "وقتنا محدود"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": {
+      "uk": "Enthusiasm matters",
+      "es": "El entusiasmo importa",
+      "fr": "L’enthousiasme compte",
+      "cn": "热情很重要",
+      "gr": "Ο ενθουσιασμός έχει σημασία",
+      "ind": "उत्साह मायने रखता है",
+      "ar": "الحماس مهم"
+    },
+    "bulletPoints": [
+      {
+        "uk": "It's much easier to work on things that are exciting to you",
+        "es": "Es mucho más fácil trabajar en cosas que te apasionan.",
+        "fr": "Il est beaucoup plus facile de travailler sur des choses qui vous passionnent",
+        "cn": "做让你兴奋的事情会更容易",
+        "gr": "Είναι πολύ πιο εύκολο να εργάζεσαι σε πράγματα που είναι συναρπαστικά για σένα",
+        "ind": "उन चीज़ों पर काम करना बहुत आसान है जो आपके लिए रोमांचक हैं",
+        "ar": "من الأسهل كثيرًا العمل على الأشياء التي تثير اهتمامك"
+      },
+      {
+        "uk": "It might be easier to do big things than small things for this reason",
+        "es": "Puede que sea más fácil hacer cosas grandes que pequeñas por este motivo.",
+        "fr": "Il est peut-être plus facile de faire de grandes choses que de petites choses pour cette raison",
+        "cn": "因此，做大事可能比做小事更容易",
+        "gr": "Ίσως είναι πιο εύκολο να κάνετε μεγάλα πράγματα παρά μικρά πράγματα για αυτόν τον λόγο",
+        "ind": "इस कारण से छोटे कामों की तुलना में बड़े काम करना आसान हो सकता है",
+        "ar": "قد يكون من الأسهل القيام بأشياء كبيرة من القيام بأشياء صغيرة لهذا السبب"
+      },
+      {
+        "uk": "Energy is a necessary input for progress",
+        "es": "La energía es un insumo necesario para el progreso",
+        "fr": "L’énergie est un apport nécessaire au progrès",
+        "cn": "能量是进步的必要投入",
+        "gr": "Η ενέργεια είναι απαραίτητη εισροή για την πρόοδο",
+        "ind": "प्रगति के लिए ऊर्जा एक आवश्यक इनपुट है",
+        "ar": "الطاقة هي مدخل ضروري للتقدم"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": {
+      "uk": "We know less than we think",
+      "es": "Sabemos menos de lo que creemos",
+      "fr": "Nous savons moins que ce que nous pensons",
+      "cn": "我们所知远少于我们认为的",
+      "gr": "Ξέρουμε λιγότερα από ό,τι νομίζουμε",
+      "ind": "हम जितना सोचते हैं उससे कम जानते हैं",
+      "ar": "نحن نعلم أقل مما نظن"
+    },
+    "bulletPoints": [
+      {
+        "uk": "Many of the things we believe are wrong",
+        "es": "Muchas de las cosas en las que creemos son incorrectas",
+        "fr": "Beaucoup de choses auxquelles nous croyons sont fausses",
+        "cn": "我们相信的许多事情是错误的",
+        "gr": "Πολλά από τα πράγματα που πιστεύουμε είναι λάθος",
+        "ind": "हम जिन चीजों पर विश्वास करते हैं उनमें से कई गलत हैं",
+        "ar": "العديد من الأشياء التي نعتقدها خاطئة"
+      },
+      {
+        "uk": "We are often not even asking the right questions",
+        "es": "A menudo ni siquiera estamos haciendo las preguntas correctas",
+        "fr": "Nous ne posons souvent même pas les bonnes questions",
+        "cn": "我们经常连正确的问题都没有提出",
+        "gr": "Συχνά καν δεν κάνουμε τις σωστές ερωτήσεις",
+        "ind": "हम अक्सर सही सवाल भी नहीं पूछ रहे हैं",
+        "ar": "غالبًا ما لا نطرح حتى الأسئلة الصحيحة"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": {
+      "uk": "Smaller teams are better",
+      "es": "Los equipos pequeños son mejores",
+      "fr": "Les petites équipes sont meilleures",
+      "cn": "小团队更好",
+      "gr": "Οι μικρές ομάδες είναι καλύτερες",
+      "ind": "",
+      "ar": "الفرق الصغيرة أفضل"
+    },
+    "bulletPoints": [
+      {
+        "uk": "Faster decisions, fewer meetings, more fun",
+        "es": "Decisiones más rápidas, menos reuniones, más diversión",
+        "fr": "Décisions plus rapides, moins de réunions, plus de plaisir",
+        "cn": "决策更快，会议更少，更有乐趣",
+        "gr": "Γρηγορότερες αποφάσεις, λιγότερες συναντήσεις, περισσότερη διασκέδαση",
+        "ind": "तेज़ निर्णय, कम बैठकें, अधिक मज़ा",
+        "ar": "قرارات أسرع، اجتماعات أقل، متعة أكثر"
+      },
+      {
+        "uk": "Many tech companies are 2-10x overstaffed",
+        "es": "Muchas empresas tecnológicas tienen un personal de 2 a 10 veces superior al necesario",
+        "fr": "De nombreuses entreprises technologiques ont un effectif surdimensionné de 2 à 10 fois",
+        "cn": "许多科技公司的员工数量是必需的2-10倍",
+        "gr": "Πολλές τεχνολογικές εταιρείες έχουν 2-10 φορές περισσότερο προσωπικό από ό,τι χρειάζονται",
+        "ind": "कई तकनीकी कंपनियों में 2-10 गुना अधिक कर्मचारी हैं",
+        "ar": "العديد من شركات التكنولوجيا لديها طاقم عمل أكبر بمقدار 2-10 مرات من اللازم"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": {
+      "uk": "It's important to do things fast",
+      "es": "Es importante hacer las cosas rápido",
+      "fr": "Il est important de faire les choses rapidement",
+      "cn": "快速做事很重要",
+      "gr": "Είναι σημαντικό να κάνεις τα πράγματα γρήγορα",
+      "ind": "चीजों को जल्दी करना महत्वपूर्ण है",
+      "ar": "من المهم القيام بالأمور بسرعة"
+    },
+    "bulletPoints": [
+      {
+        "uk": "You learn more per unit time because you make contact with reality more frequently",
+        "es": "Aprendes más por unidad de tiempo porque tienes contacto con la realidad más frecuentemente",
+        "fr": "Vous apprenez plus par unité de temps car vous êtes en contact avec la réalité plus fréquemment",
+        "cn": "你会在单位时间内学到更多，因为你更频繁地接触现实",
+        "gr": "Μαθαίνεις περισσότερα ανά μονάδα χρόνου επειδή έρχεσαι σε επαφή με την πραγματικότητα πιο συχνά",
+        "ind": "आप प्रति इकाई समय अधिक सीखते हैं क्योंकि आप अधिक बार वास्तविकता से संपर्क करते हैं",
+        "ar": "تتعلم أكثر لكل وحدة زمن لأنك تتواصل مع الواقع بشكل أكثر تكرارًا"
+      },
+      {
+        "uk": "Going fast makes you focus on what's important; there's no time to waste",
+        "es": "Ir rápido te hace concentrarte en lo que es importante; no hay tiempo que perder",
+        "fr": "Aller vite vous fait vous concentrer sur ce qui est important ; il n'y a pas de temps à perdre",
+        "cn": "快速行动使你专注于重要的事情；没有时间浪费",
+        "gr": "Το να πηγαίνεις γρήγορα σε κάνει να εστιάζεις σε αυτό που είναι σημαντικό· δεν υπάρχει χρόνος για σπατάλη",
+        "ind": "तेजी से जाना आपको महत्वपूर्ण चीजों पर ध्यान केंद्रित करने पर मजबूर करता है; समय बर्बाद करने का कोई समय नहीं है",
+        "ar": "الذهاب بسرعة يجعلك تركز على ما هو مهم؛ لا وقت للضياع"
+      },
+      {
+        "uk": "If you give yourself 30 days to clean your home, it will take you 30 days. But if you give yourself 3 hours, it will take 3 hours. A week is 2% of the year.",
+        "es": "Si te das 30 días para limpiar tu casa, te llevará 30 días. Pero si te das 3 horas, te llevará 3 horas.",
+        "fr": "Si vous vous donnez 30 jours pour nettoyer votre maison, cela vous prendra 30 jours. Mais si vous vous donnez 3 heures, cela prendra 3 heures.",
+        "cn": "如果你给自己30天时间清理你的家，它将花费你30天。但是如果你给自己3个小时，它将只需要3个小时。",
+        "gr": "Αν δώσεις στον εαυτό σου 30 μέρες για να καθαρίσεις το σπίτι σου, θα σου πάρει 30 μέρες. Αλλά αν δώσεις στον εαυτό σου 3 ώρες, θα πάρει 3 ώρες.",
+        "ind": "यदि आप अपने घर की सफाई के लिए खुद को 30 दिन देते हैं, तो इसमें आपको 30 दिन लगेंगे। लेकिन अगर आप खुद को 3 घंटे देते हैं, तो यह 3 घंटे में हो जाएगा।",
+        "ar": "إذا أعطيت نفسك 30 يومًا لتنظيف منزلك، سيستغرق الأمر منك 30 يومًا. ولكن إذا أعطيت نفسك 3 ساعات، فسوف يستغرق الأمر 3 ساعات."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": {
+      "uk": "Forgive and be happy",
+      "es": "Perdona y sé feliz",
+      "fr": "Pardonne et sois heureux",
+      "cn": "原谅并快乐",
+      "gr": "Συγχώρεσε και να είσαι ευτυχισμένος",
+      "ind": "माफ कर दो और खुश रहो",
+      "ar": "اغفر وكن سعيدًا"
+    },
+    "bulletPoints": [
+      {
+        "uk": "Forgive as best as you can. You certainly don’t have to, but holding a grudge is like drinking poison so you can eventually spit it on someone else.",
+        "es": "Perdona lo mejor que puedas. Ciertamente no tienes que hacerlo, pero guardar rencor es como beber veneno para eventualmente escupirlo sobre alguien más.",
+        "fr": "Pardonnez du mieux que vous pouvez. Vous n'êtes certainement pas obligé de le faire, mais tenir rancune est comme boire du poison pour pouvoir finalement le cracher sur quelqu'un d'autre.",
+        "cn": "尽你所能去原谅。你当然不必这样做，但是怀恨在心就像喝下毒药，最终想要吐在别人身上。",
+        "gr": "Συγχώρεσε όσο καλύτερα μπορείς. Σίγουρα δεν πρέπει, αλλά το να κρατάς κακία είναι σαν να πίνεις δηλητήριο ώστε τελικά να το φτύσεις σε κάποιον άλλο.",
+        "ind": "जितना हो सके क्षमा करें। आपको निश्चित रूप से ऐसा करने की ज़रूरत नहीं है, लेकिन द्वेष रखना ज़हर पीने के समान है ताकि आप अंततः इसे किसी और पर उगल सकें।",
+        "ar": "اغفر بأفضل ما يمكنك. بالتأكيد لست مضطرًا لذلك، لكن الحقد كأنك تشرب السم حتى تتمكن في النهاية من بصقه على شخص آخر."
+      },
+      {
+        "uk": "The best revenge is getting yourself to a place where you no longer care about revenge.",
+        "es": "La mejor venganza es llevarte a un lugar donde ya no te importe la venganza.",
+        "fr": "La meilleure revanche est de vous amener à un endroit où la revanche ne vous intéresse plus.",
+        "cn": "最好的复仇是让自己到达一个不再关心复仇的地方。",
+        "gr": "Η καλύτερη εκδίκηση είναι να φτάσεις σε ένα σημείο όπου δεν νοιάζεσαι πλέον για την εκδίκηση.",
+        "ind": "सबसे अच्छा बदला अपने आप को उस जगह ले जाना है जहां आपको बदला लेने की कोई परवाह नहीं रह जाती है।",
+        "ar": "أفضل انتقام هو أن تجعل نفسك في مكان لا يعود الانتقام يهمك فيه."
+      },
+      {
+        "uk": "If you always think your happiness is somewhere else, it'll never be where you are.",
+        "es": "Si siempre piensas que tu felicidad está en otro lugar, nunca estará donde tú estás.",
+        "fr": "Si vous pensez toujours que votre bonheur se trouve ailleurs, il ne sera jamais là où vous êtes.",
+        "cn": "如果你总是认为你的幸福在别处，它永远不会在你所在的地方。",
+        "gr": "Αν πιστεύεις πάντα ότι η ευτυχία σου βρίσκεται κάπου αλλού, ποτέ δεν θα είναι εκεί που βρίσκεσαι.",
+        "ind": "अगर आप हमेशा सोचते हैं कि आपकी खुशी कहीं और है, तो वह कभी वहां नहीं होगी जहां आप हैं।",
+        "ar": "إذا كنت دائمًا تعتقد أن سعادتك تكمن في مكان آخر، فلن تكون أبدًا حيث أنت."
+      }
+    ]
+  }
+
+]
+
+

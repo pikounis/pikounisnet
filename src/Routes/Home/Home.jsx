@@ -6,6 +6,7 @@ import sea from '/sea.png';
 import AboutMe from './components/AboutMe/AboutMe.jsx';
 import ContactForm from './components/ContactForm/ContactForm.jsx';
 import Projects from "./components/Projects/Projects.jsx";
+import SomeThingsIBelieve from "./components/SomeThingsIBelieve/SomeThingsIBelieve.jsx";
 
 function Home() {
     const { t } = useTranslation();
@@ -20,8 +21,9 @@ function Home() {
                     <img src={sea} alt="Sea" className="full-screen-img" />
                 </div>
                 <AboutMe />
-                <ContactForm />
                 <Projects />
+                <SomeThingsIBelieve />
+                <ContactForm />
             </div>
     );
 }

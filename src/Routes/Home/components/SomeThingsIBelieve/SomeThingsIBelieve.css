@@ -1,0 +1,7 @@
+.believe-root {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Adjust the gap size as needed */
+    justify-content: center; /* Center the items horizontally */
+    padding: 20px;
+}
