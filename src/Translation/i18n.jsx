@@ -1,13 +1,13 @@
 import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
 
-import translationAR from './languages/AR/translation.json';
-import translationCN from './languages/CN/translation.json';
-import translationFR from './languages/FR/translation.json';
-import translationGR from './languages/GR/translation.json';
-import translationIN from './languages/IN/translation.json';
-import translationES from './languages/ES/translation.json';
-import translationUK from './languages/UK/translation.json';
+import translationAR from './Languages/AR/translation.json';
+import translationCN from './Languages/CN/translation.json';
+import translationFR from './Languages/FR/translation.json';
+import translationGR from './Languages/GR/translation.json';
+import translationIN from './Languages/IN/translation.json';
+import translationES from './Languages/ES/translation.json';
+import translationUK from './Languages/UK/translation.json';
 
 i18n
     .use(initReactI18next)
