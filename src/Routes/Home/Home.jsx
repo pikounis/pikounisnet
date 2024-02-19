@@ -21,7 +21,7 @@ function Home() {
                     <img src={sea} alt="Sea" className="full-screen-img" />
                 </div>
                 <AboutMe />
-                <Projects />
+                {/*<Projects />*/}
                 <SomeThingsIBelieve />
                 <ContactForm />
             </div>

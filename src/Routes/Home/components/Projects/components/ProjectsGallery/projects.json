@@ -69,7 +69,7 @@
       "ind": "",
       "ar": ""
     },
-    "technologies": ["React", "mui"],
+    "technologies": ["React", "Mui"],
     "image": "https://pikounisnet-express-backend.vercel.app/assets/projects/pikounis-logo.png",
     "websiteUrl": "https://pikounis.gr",
     "githubUrl": "https://github.com/pikounis/pikounisgr-website"

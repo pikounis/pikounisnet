@@ -3,6 +3,7 @@ import { Box, Typography, Link, Grid, useTheme } from '@mui/material';
 import Signature from './components/Signature/Signature.jsx';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import MailLockIcon from '@mui/icons-material/MailLock';
 import XIcon from '@mui/icons-material/X';
 // import AlternateEmailIcon from '@mui/icons-material/AlternateEmail';
 import MusicNoteIcon from '@mui/icons-material/MusicNote';
@@ -55,19 +56,26 @@ function Footer() {
                             </IconButton>
                         </Grid>
                         {/*<Grid item>*/}
-                        {/*    <IconButton href="mailto:anastasiospikounis@gmail.com" color="inherit" target="_blank">*/}
+                        {/*    <IconButton href="mailto:@gmail.com" color="inherit" target="_blank">*/}
                         {/*        <AlternateEmailIcon style={{ fontSize: '30px' }} />*/}
                         {/*    </IconButton>*/}
                         {/*</Grid>*/}
-                        <Grid item>
-                            {/*<IconButton href="https://x.com/pikounaki" color="inherit" target="_blank">*/}
-                            {/*    <XIcon style={{ fontSize: '30px' }} />*/}
-                            {/*</IconButton>*/}
-                            <ThemeMenu />
-                        </Grid>
+                        {/*<Grid item>*/}
+                        {/*    <IconButton href="https://x.com/pikounaki" color="inherit" target="_blank">*/}
+                        {/*        <XIcon style={{ fontSize: '30px' }} />*/}
+                        {/*    </IconButton>*/}
+                        {/*</Grid>*/}
+                        {/*<Grid item>*/}
+                        {/*    <ThemeMenu />*/}
+                        {/*</Grid>*/}
                         <Grid item>
                             <IconButton href="https://open.spotify.com/user/sosat2" color="inherit" target="_blank">
                                 <MusicNoteIcon style={{ fontSize: '30px' }} />
+                            </IconButton>
+                        </Grid>
+                        <Grid item>
+                            <IconButton href="https://keybase.io/pikounis" color="inherit" target="_blank">
+                                <MailLockIcon style={{ fontSize: '30px' }} />
                             </IconButton>
                         </Grid>
                     </Grid>
