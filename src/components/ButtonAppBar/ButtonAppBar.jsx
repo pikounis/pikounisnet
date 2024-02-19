@@ -21,6 +21,7 @@ function ButtonAppBar() {
                     <div>
                         <Button color="inherit" onClick={() => navigate('/')}>Home</Button>
                         <Button color="inherit" onClick={() => navigate('/timeline')}>Timeline</Button>
+                        <Button color="inherit" onClick={() => navigate('/projects')}>Projects</Button>
                     </div>
                     <div className="right-div"> {/* Ensure inline display */}
                         <LanguagePicker />

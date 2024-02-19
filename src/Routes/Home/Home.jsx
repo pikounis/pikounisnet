@@ -5,7 +5,7 @@ import './Home.css';
 import sea from '/sea.png';
 import AboutMe from './components/AboutMe/AboutMe.jsx';
 import ContactForm from './components/ContactForm/ContactForm.jsx';
-import Projects from "./components/Projects/Projects.jsx";
+import AllProjects from "./components/AllProjects/AllProjects.jsx";
 import SomeThingsIBelieve from "./components/SomeThingsIBelieve/SomeThingsIBelieve.jsx";
 
 function Home() {
@@ -21,7 +21,7 @@ function Home() {
                     <img src={sea} alt="Sea" className="full-screen-img" />
                 </div>
                 <AboutMe />
-                {/*<Projects />*/}
+                {/*<AllProjects />*/}
                 <SomeThingsIBelieve />
                 <ContactForm />
             </div>

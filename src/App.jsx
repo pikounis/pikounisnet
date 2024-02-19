@@ -5,6 +5,7 @@ import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import Home from '../src/Routes/Home/Home.jsx';
 import Timeline from './Routes/Timeline/Timeline.jsx';
+import Projects from './Routes/Projects/Projects.jsx';
 import { useSelector } from 'react-redux';
 import ButtonAppBar from "./components/ButtonAppBar/ButtonAppBar.jsx";
 import LanguageSynchronizer from '../src/Translation/LanguageSynchronizer.jsx';
@@ -38,6 +39,7 @@ function App() {
                 <Routes>
                     <Route path="/" element={<Home />} />
                     <Route path="/timeline" element={<Timeline />} />
+                    <Route path="/projects" element={<Projects />} />
                     <Route path="*" element={<Home />} /> {/* 404 route */}
                 </Routes>
                 <Footer />

@@ -1,10 +1,10 @@
 import React from "react";
-import './Projects.css';
+import './AllProjects.css';
 import Typography from '@mui/material/Typography';
 import MediaCard from "./components/MediaCard/MediaCard.jsx";
 import ProjectsGallery from "./components/ProjectsGallery/ProjectsGallery.jsx";
 
-function Projects() {
+function AllProjects() {
     return (
         <div>
             <Typography variant="h2">Projects</Typography>
@@ -13,4 +13,4 @@ function Projects() {
     );
 }
 
-export default Projects;
+export default AllProjects;
