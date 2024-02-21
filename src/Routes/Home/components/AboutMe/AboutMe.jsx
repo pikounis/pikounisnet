@@ -14,8 +14,8 @@ function AboutMe() {
                         <Photo />
                     </Grid>
                     <Grid item xs={12} md={6}>
-                        <Typography variant="h2">Anastasios Pikounis</Typography>
-                        <Typography variant="body1">
+                        <Typography variant="h2" className="aboutme-title" >Anastasios Pikounis</Typography>
+                        <Typography variant="body1"className="aboutme-title" >
                             Support Engineer at <a href="https://fornova.com" target="_blank" >Fornova</a>
                         </Typography>
                     </Grid>

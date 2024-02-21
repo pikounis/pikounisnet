@@ -63,7 +63,7 @@ function ContactForm() {
 
     return (
         <div className="div-style">
-            <Typography variant="h2">Contact</Typography>
+            <Typography variant="h2" className="contact-title">Contact</Typography>
             <Container>
                 <Box display="flex" justifyContent="center" alignItems="center" p={2}>
                     <Paper className="paper-style">

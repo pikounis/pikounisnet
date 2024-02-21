@@ -7,7 +7,7 @@ import ProjectsGallery from "./components/ProjectsGallery/ProjectsGallery.jsx";
 function AllProjects() {
     return (
         <div>
-            <Typography variant="h2">Projects</Typography>
+            <Typography variant="h2" className="projects-title" >Projects</Typography>
             <ProjectsGallery />
         </div>
     );
