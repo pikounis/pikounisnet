@@ -1,70 +1,70 @@
 [
   {
     "id": 1,
-    "date": "2011 - present",
+    "date": "Jan 2024 - Present",
     "title": "Support Engineer",
     "subtitle": "Fornova",
-    "description": "Creative Direction, User Experience, Visual Design, Project Management, Team Leading",
+    "description": "At Fornova, one of our solutions is for the hospitality industry helping hotels increase their sales up to 30%. We help our customers make business decisions and effective pricing by comparing data that we scrape for them daily. Technologies that I use include Python, JavaScript, SQL and MongoDB.",
     "icon": "https://pikounisnet-express-backend.vercel.app/assets/timeline_logos/fornova.png",
     "website": "https://www.fornova.com/"
   },
   {
     "id": 2,
-    "date": "2009 - 2011",
+    "date": "Jan 2023 - Dec 2023",
     "title": "Operations",
     "subtitle": "BPP University",
-    "description": "Conceptualizing visuals, Project Management, Team Supervision",
+    "description": "Administering attendance reports for students and professors using Salesforce Dashboards. Supporting the attendance team by tracking and responding to Student Authorized Leave requests.",
     "icon": "https://pikounisnet-express-backend.vercel.app/assets/timeline_logos/bpp.png",
     "website": "https://www.bpp.com/"
   },
   {
     "id": 3,
-    "date": "2009 - 2011",
+    "date": "Sep 2022 - Oct 2022",
     "title": "Software Engineering Intern",
     "subtitle": "Wiley Edge",
-    "description": "Conceptualizing visuals, Project Management, Team Supervision",
+    "description": "Trained on full-stack development (Java, Spring Framework, HTML, CSS, JavaScript, SQL, JDBC, Maven, MVC, git, REST API). Developed a full-stack department store application and strengthened my presentation and communication.",
     "icon": "https://pikounisnet-express-backend.vercel.app/assets/timeline_logos/wiley.jpeg",
     "website": "https://www.wiley.com/edge/"
   },
   {
     "id": 4,
-    "date": "2009 - 2011",
+    "date": "Jun 2020 - Aug 2020",
     "title": "Software Engineering Intern",
     "subtitle": "Express Publishing",
-    "description": "Conceptualizing visuals, Project Management, Team Supervision",
+    "description": "Training on React by working with the front-end development team on building a new web platform for customers to access their books online. I implemented a lot of the front end requirements, by following the instructions of the UI designer. The new website has an updated e-shop with a custom made payment handling system and an updated look.",
     "icon": "https://pikounisnet-express-backend.vercel.app/assets/timeline_logos/express_publishing.png",
     "website": "https://www.expresspublishing.co.uk/en"
   },
   {
     "id": 5,
-    "date": "2009 - 2011",
+    "date": "Aug 2019 - Sep 2019",
     "title": "Software Engineering Intern",
     "subtitle": "Triton - Asset Management",
-    "description": "Conceptualizing visuals, Project Management, Team Supervision",
+    "description": "Worked in a team where we designed scripts in Python that were used to monitor the companies’ customers’ investments. Triton works with high net worth individuals that use our services in order to manage their assets.",
     "icon": "https://pikounisnet-express-backend.vercel.app/assets/timeline_logos/triton.png",
     "website": "https://en.triton-am.com/"
   },
   {
     "id": 6,
-    "date": "2009 - 2011",
+    "date": "Jun 2018 - Jul 2018",
     "title": "Software Engineering Intern",
     "subtitle": "Navarino Telecom",
-    "description": "Conceptualizing visuals, Project Management, Team Supervision",
+    "description": "Strengthened my Python coding skills by effectively making the software changes required to fulfil the requirements specified by the CTO. The software monitored all the activity on the vessels including report support and communications. Worked on a software solution for vessels called Infinity where I added telecommunication logging information that vessels use to contact the shore. Each vessel that travels in the sea has a solution that tracks everything. This includes from the food supplies they have on board for the crew to what cargo they are transporting.",
     "icon": "https://pikounisnet-express-backend.vercel.app/assets/timeline_logos/navarino.png",
     "website": "https://navarino.co.uk/"
   },
   {
     "id": 7,
-    "date": "2009 - 2011",
+    "date": "Jun 2017 - Jul 2017",
     "title": "Cyber - Pen testing Intern",
     "subtitle": "Adacom Cyber Security",
-    "description": "Conceptualizing visuals, Project Management, Team Supervision",
+    "description": "Used tools in Kali Linux to brute force, capture network traffic and decrypt information. Assisted the senior pen tester of the team to run social engineering attacks on companies as well as bruteforce them and find sql injections. This involved banking related companies that needed security.",
     "icon": "https://pikounisnet-express-backend.vercel.app/assets/timeline_logos/adacom.png",
     "website": "https://www.adacom.com/"
   },
   {
     "id": 8,
-    "date": "2009 - 2011",
+    "date": "Jul 2016 - Aug 2016",
     "title": "Software Engineering Intern",
     "subtitle": "Agile Actors",
     "description": "Implemented the skills I gained at training at Agile Actors to build a game as part of the internship in React. The game was a tic tac toe, and its purpose was to teach us props, state, render and the dom.",
@@ -76,7 +76,7 @@
     "date": "2018 - 2022",
     "title": "BSc Computer Science",
     "subtitle": "Royal Holloway, University of London",
-    "description": "Implemented the skills I gained at training at Agile Actors to build a game as part of the internship in React. The game was a tic tac toe, and its purpose was to teach us props, state, render and the dom.",
+    "description": "First Class Honors",
     "icon": "https://pikounisnet-express-backend.vercel.app/assets/timeline_logos/rhul.jpeg",
     "website": "https://royalholloway.ac.uk/"
   },
@@ -85,7 +85,7 @@
     "date": "2017 - 2018",
     "title": "Foundation Studies",
     "subtitle": "University of Bradford",
-    "description": "Implemented the skills I gained at training at Agile Actors to build a game as part of the internship in React. The game was a tic tac toe, and its purpose was to teach us props, state, render and the dom.",
+    "description": "Distinction",
     "icon": "https://pikounisnet-express-backend.vercel.app/assets/timeline_logos/bradford.jpg",
     "website": "https://www.bradford.ac.uk/"
   },
@@ -94,7 +94,7 @@
     "date": "2005 - 2016",
     "title": "GCSE",
     "subtitle": "St. Catherines British School",
-    "description": "Implemented the skills I gained at training at Agile Actors to build a game as part of the internship in React. The game was a tic tac toe, and its purpose was to teach us props, state, render and the dom.",
+    "description": "Lower School, Upper School and GCSE.",
     "icon": "https://pikounisnet-express-backend.vercel.app/assets/timeline_logos/stcatherines.jpeg",
     "website": "https://www.stcatherines.gr/"
   }
