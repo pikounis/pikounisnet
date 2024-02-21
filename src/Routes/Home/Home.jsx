@@ -8,6 +8,7 @@ import ContactForm from './components/ContactForm/ContactForm.jsx';
 import LightBackground from "./components/backgrounds/LightBackground/LightBackground.jsx";
 import DarkBackground from "./components/backgrounds/DarkBackground/DarkBackground.jsx";
 import SomeThingsIBelieve from "./components/SomeThingsIBelieve/SomeThingsIBelieve.jsx";
+import Typography from "@mui/material/Typography";
 
 function Home() {
     const { t } = useTranslation();
@@ -20,11 +21,12 @@ function Home() {
     const BackgroundComponent = themeName === 'dark' ? DarkBackground : LightBackground;
 
     return (
-        <div style={{ color: textColor }}>
-            <div className="container">
+        <div style={{ color: textColor, paddingTop: "100px" }}>
+            {/*<div className="container">*/}
                 {/*<img src={sea} alt="Sea" className="full-screen-img" />*/}
-                <BackgroundComponent />
-            </div>
+                {/*<BackgroundComponent />*/}
+                {/*<Typography variant="h2">Welcome</Typography>*/}
+            {/*</div>*/}
             <AboutMe />
             <SomeThingsIBelieve />
             <ContactForm />
