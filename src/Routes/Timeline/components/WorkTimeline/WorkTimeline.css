@@ -1,10 +1,16 @@
 .timeline-container {
-    padding-top: 100px;
+    padding-top: 64px;
+}
+
+@media screen and (max-width: 600px) {
+    .timeline-container {
+        padding-top: 56px;
+    }
 }
 
 .project-picture {
     height: 40px;
-    width: 40px; /* Ensure the image is a square to fit nicely in the circle. */
+    width: 40px;
     object-fit: cover; /* This ensures the image covers the area well, adjust as needed. */
     /* No need for flexbox properties on the image itself */
 }
@@ -14,14 +20,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 
 .vertical-timeline::before {
-    background: #696969; /* Example: A color from your theme's palette. Adjust as needed. */
+    background: #696969;
 }
-
-
-
 
 @media screen and (max-width: 1170px) {
     .project-picture {
@@ -29,4 +33,3 @@
         border-radius: 50%;
     }
 }
-

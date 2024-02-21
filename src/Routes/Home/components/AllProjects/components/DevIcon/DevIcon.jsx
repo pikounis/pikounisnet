@@ -55,7 +55,7 @@ function DevIcon({ technology }) {
             <img
                 src={logo}
                 alt={`${technology} logo`}
-                style={{ width: '50px', height: '50px', cursor: 'pointer' }}
+                style={{ width: '35px', height: '35px', cursor: 'pointer' }}
                 onClick={handleClick}
                 aria-describedby={id}
             />

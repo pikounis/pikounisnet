@@ -1,0 +1,101 @@
+[
+  {
+    "id": 1,
+    "date": "2011 - present",
+    "title": "Support Engineer",
+    "subtitle": "Fornova",
+    "description": "Creative Direction, User Experience, Visual Design, Project Management, Team Leading",
+    "icon": "https://pikounisnet-express-backend.vercel.app/assets/timeline_logos/fornova.png",
+    "website": "https://www.fornova.com/"
+  },
+  {
+    "id": 2,
+    "date": "2009 - 2011",
+    "title": "Operations",
+    "subtitle": "BPP University",
+    "description": "Conceptualizing visuals, Project Management, Team Supervision",
+    "icon": "https://pikounisnet-express-backend.vercel.app/assets/timeline_logos/bpp.png",
+    "website": "https://www.bpp.com/"
+  },
+  {
+    "id": 3,
+    "date": "2009 - 2011",
+    "title": "Software Engineering Intern",
+    "subtitle": "Wiley Edge",
+    "description": "Conceptualizing visuals, Project Management, Team Supervision",
+    "icon": "https://pikounisnet-express-backend.vercel.app/assets/timeline_logos/wiley.jpeg",
+    "website": "https://www.wiley.com/edge/"
+  },
+  {
+    "id": 4,
+    "date": "2009 - 2011",
+    "title": "Software Engineering Intern",
+    "subtitle": "Express Publishing",
+    "description": "Conceptualizing visuals, Project Management, Team Supervision",
+    "icon": "https://pikounisnet-express-backend.vercel.app/assets/timeline_logos/express_publishing.png",
+    "website": "https://www.expresspublishing.co.uk/en"
+  },
+  {
+    "id": 5,
+    "date": "2009 - 2011",
+    "title": "Software Engineering Intern",
+    "subtitle": "Triton - Asset Management",
+    "description": "Conceptualizing visuals, Project Management, Team Supervision",
+    "icon": "https://pikounisnet-express-backend.vercel.app/assets/timeline_logos/triton.png",
+    "website": "https://en.triton-am.com/"
+  },
+  {
+    "id": 6,
+    "date": "2009 - 2011",
+    "title": "Software Engineering Intern",
+    "subtitle": "Navarino Telecom",
+    "description": "Conceptualizing visuals, Project Management, Team Supervision",
+    "icon": "https://pikounisnet-express-backend.vercel.app/assets/timeline_logos/navarino.png",
+    "website": "https://navarino.co.uk/"
+  },
+  {
+    "id": 7,
+    "date": "2009 - 2011",
+    "title": "Cyber - Pen testing Intern",
+    "subtitle": "Adacom Cyber Security",
+    "description": "Conceptualizing visuals, Project Management, Team Supervision",
+    "icon": "https://pikounisnet-express-backend.vercel.app/assets/timeline_logos/adacom.png",
+    "website": "https://www.adacom.com/"
+  },
+  {
+    "id": 8,
+    "date": "2009 - 2011",
+    "title": "Software Engineering Intern",
+    "subtitle": "Agile Actors",
+    "description": "Implemented the skills I gained at training at Agile Actors to build a game as part of the internship in React. The game was a tic tac toe, and its purpose was to teach us props, state, render and the dom.",
+    "icon": "https://pikounisnet-express-backend.vercel.app/assets/timeline_logos/agileactors.png",
+    "website": "https://www.agileactors.com/"
+  },
+  {
+    "id": 9,
+    "date": "2018 - 2022",
+    "title": "BSc Computer Science",
+    "subtitle": "Royal Holloway, University of London",
+    "description": "Implemented the skills I gained at training at Agile Actors to build a game as part of the internship in React. The game was a tic tac toe, and its purpose was to teach us props, state, render and the dom.",
+    "icon": "https://pikounisnet-express-backend.vercel.app/assets/timeline_logos/rhul.jpeg",
+    "website": "https://royalholloway.ac.uk/"
+  },
+  {
+    "id": 10,
+    "date": "2017 - 2018",
+    "title": "Foundation Studies",
+    "subtitle": "University of Bradford",
+    "description": "Implemented the skills I gained at training at Agile Actors to build a game as part of the internship in React. The game was a tic tac toe, and its purpose was to teach us props, state, render and the dom.",
+    "icon": "https://pikounisnet-express-backend.vercel.app/assets/timeline_logos/bradford.jpg",
+    "website": "https://www.bradford.ac.uk/"
+  },
+  {
+    "id": 11,
+    "date": "2005 - 2016",
+    "title": "GCSE",
+    "subtitle": "St. Catherines British School",
+    "description": "Implemented the skills I gained at training at Agile Actors to build a game as part of the internship in React. The game was a tic tac toe, and its purpose was to teach us props, state, render and the dom.",
+    "icon": "https://pikounisnet-express-backend.vercel.app/assets/timeline_logos/stcatherines.jpeg",
+    "website": "https://www.stcatherines.gr/"
+  }
+]
