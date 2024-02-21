@@ -13,7 +13,7 @@
     "date": "Jan 2023 - Dec 2023",
     "title": "Operations",
     "subtitle": "BPP University",
-    "description": "Administering attendance reports for students and professors using Salesforce Dashboards. Supporting the attendance team by tracking and responding to Student Authorized Leave requests.",
+    "description": "Administering attendance reports for students and professors using Salesforce Dashboards. Supporting the attendance team by tracking and responding to Student Authorized Leave requests. Made scripts in Python that automated 50% of my job.",
     "icon": "https://pikounisnet-express-backend.vercel.app/assets/timeline_logos/bpp.png",
     "website": "https://www.bpp.com/"
   },
