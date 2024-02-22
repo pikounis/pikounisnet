@@ -34,16 +34,19 @@ function App() {
         <ThemeProvider theme={currentTheme()}>
             <CssBaseline />
             <LanguageSynchronizer /> {/* Include LanguageSynchronizer */}
-            <div>
+            <div className="app-container">
                 <ButtonAppBar />
-                <Routes>
-                    <Route path="/" element={<Home />} />
-                    <Route path="/timeline" element={<Timeline />} />
-                    <Route path="/projects" element={<Projects />} />
-                    <Route path="*" element={<Home />} /> {/* 404 route */}
-                </Routes>
+                <div className="content-grow">
+                    <Routes>
+                        <Route path="/" element={<Home />} />
+                        <Route path="/timeline" element={<Timeline />} />
+                        <Route path="/projects" element={<Projects />} />
+                        <Route path="*" element={<Home />} /> {/* 404 route */}
+                    </Routes>
+                </div>
                 <Footer />
             </div>
+
         </ThemeProvider>
     );
 }

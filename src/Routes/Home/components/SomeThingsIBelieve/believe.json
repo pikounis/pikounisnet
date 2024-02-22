@@ -2,47 +2,6 @@
   {
     "id": 1,
     "title": {
-      "uk": "Reshape the universe to our preferences",
-      "es": "Remodelar el universo según nuestras preferencias.",
-      "fr": "Remodeler l'univers selon nos préférences",
-      "cn": "按照我们的喜好重塑宇宙",
-      "gr": "Αναδιαμορφώστε το σύμπαν σύμφωνα με τις προτιμήσεις μας",
-      "ind": "ब्रह्मांड को हमारी प्राथमिकताओं के अनुसार नया आकार दें",
-      "ar": "إعادة تشكيل الكون لتفضيلاتنا"
-    },
-    "bulletPoints": [
-      {
-        "uk": "Technology, which is really knowledge, enables this",
-        "es": "La tecnología, que es realmente conocimiento, permite esto.",
-        "fr": "La technologie, qui est en réalité une connaissance, permet cela",
-        "cn": "技术，即真正的知识，使这成为可能",
-        "gr": "Η τεχνολογία, που είναι πραγματικά γνώση, το επιτρέπει",
-        "ind": "प्रौद्योगिकी, जो वास्तव में ज्ञान है, इसे सक्षम बनाती है",
-        "ar": "التكنولوجيا، التي هي في الحقيقة المعرفة، تمكننا من تحقيق ذلك"
-      },
-      {
-        "uk": "You should probably work on raising the ceiling, not the floor",
-        "es": "Probablemente deberías trabajar para elevar el techo, no el piso.",
-        "fr": "Vous devriez probablement travailler à surélever le plafond, pas le sol",
-        "cn": "你可能应该努力提高天花板，而不是地板",
-        "gr": "Μάλλον θα πρέπει να εργαστείτε για την ανύψωση της οροφής, όχι του δαπέδου",
-        "ind": "आपको संभवतः छत को ऊपर उठाने पर काम करना चाहिए, न कि फर्श पर",
-        "ar": "ربما ينبغي عليك العمل على رفع السقف وليس الأرضية"
-      },
-      {
-        "uk": "Our time is limited",
-        "es": "Nuestro tiempo es limitado",
-        "fr": "Notre temps est limité",
-        "cn": "我们的时间有限",
-        "gr": "Ο χρόνος μας είναι περιορισμένος",
-        "ind": "हमारा समय सीमित है",
-        "ar": "وقتنا محدود"
-      }
-    ]
-  },
-  {
-    "id": 2,
-    "title": {
       "uk": "Enthusiasm matters",
       "es": "El entusiasmo importa",
       "fr": "L’enthousiasme compte",
@@ -69,52 +28,11 @@
         "gr": "Ίσως είναι πιο εύκολο να κάνετε μεγάλα πράγματα παρά μικρά πράγματα για αυτόν τον λόγο",
         "ind": "इस कारण से छोटे कामों की तुलना में बड़े काम करना आसान हो सकता है",
         "ar": "قد يكون من الأسهل القيام بأشياء كبيرة من القيام بأشياء صغيرة لهذا السبب"
-      },
-      {
-        "uk": "Energy is a necessary input for progress",
-        "es": "La energía es un insumo necesario para el progreso",
-        "fr": "L’énergie est un apport nécessaire au progrès",
-        "cn": "能量是进步的必要投入",
-        "gr": "Η ενέργεια είναι απαραίτητη εισροή για την πρόοδο",
-        "ind": "प्रगति के लिए ऊर्जा एक आवश्यक इनपुट है",
-        "ar": "الطاقة هي مدخل ضروري للتقدم"
       }
     ]
   },
   {
-    "id": 3,
-    "title": {
-      "uk": "We know less than we think",
-      "es": "Sabemos menos de lo que creemos",
-      "fr": "Nous savons moins que ce que nous pensons",
-      "cn": "我们所知远少于我们认为的",
-      "gr": "Ξέρουμε λιγότερα από ό,τι νομίζουμε",
-      "ind": "हम जितना सोचते हैं उससे कम जानते हैं",
-      "ar": "نحن نعلم أقل مما نظن"
-    },
-    "bulletPoints": [
-      {
-        "uk": "Many of the things we believe are wrong",
-        "es": "Muchas de las cosas en las que creemos son incorrectas",
-        "fr": "Beaucoup de choses auxquelles nous croyons sont fausses",
-        "cn": "我们相信的许多事情是错误的",
-        "gr": "Πολλά από τα πράγματα που πιστεύουμε είναι λάθος",
-        "ind": "हम जिन चीजों पर विश्वास करते हैं उनमें से कई गलत हैं",
-        "ar": "العديد من الأشياء التي نعتقدها خاطئة"
-      },
-      {
-        "uk": "We are often not even asking the right questions",
-        "es": "A menudo ni siquiera estamos haciendo las preguntas correctas",
-        "fr": "Nous ne posons souvent même pas les bonnes questions",
-        "cn": "我们经常连正确的问题都没有提出",
-        "gr": "Συχνά καν δεν κάνουμε τις σωστές ερωτήσεις",
-        "ind": "हम अक्सर सही सवाल भी नहीं पूछ रहे हैं",
-        "ar": "غالبًا ما لا نطرح حتى الأسئلة الصحيحة"
-      }
-    ]
-  },
-  {
-    "id": 4,
+    "id": 2,
     "title": {
       "uk": "Smaller teams are better",
       "es": "Los equipos pequeños son mejores",
@@ -146,7 +64,7 @@
     ]
   },
   {
-    "id": 5,
+    "id": 3,
     "title": {
       "uk": "It's important to do things fast",
       "es": "Es importante hacer las cosas rápido",
@@ -187,7 +105,7 @@
     ]
   },
   {
-    "id": 6,
+    "id": 4,
     "title": {
       "uk": "Forgive and be happy",
       "es": "Perdona y sé feliz",

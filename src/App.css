@@ -36,6 +36,18 @@
   padding: 2em;
 }
 
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content-grow {
+  flex: 1;
+}
+
+
+
 /*.read-the-docs {*/
 /*  color: #888;*/
 /*}*/

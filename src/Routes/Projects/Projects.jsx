@@ -5,12 +5,9 @@ import AllProjects from '../Home/components/AllProjects/AllProjects.jsx';
 
 function Projects() {
     return (
-        <div>
             <div className="project-container">
                 <AllProjects />
             </div>
-
-        </div>
     );
 }
 
