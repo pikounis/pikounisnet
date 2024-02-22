@@ -1,10 +1,12 @@
 .believe-root {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column; /* This ensures children are stacked vertically */
     gap: 20px; /* Adjust the gap size as needed */
     justify-content: center; /* Center the items horizontally */
+    align-items: center; /* Center the items vertically if needed */
     padding: 20px;
 }
+
 
 .believe-title {
     text-align: center;
