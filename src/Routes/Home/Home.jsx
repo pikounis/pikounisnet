@@ -9,6 +9,7 @@ import LightBackground from "./components/backgrounds/LightBackground/LightBackg
 import DarkBackground from "./components/backgrounds/DarkBackground/DarkBackground.jsx";
 import SomeThingsIBelieve from "./components/SomeThingsIBelieve/SomeThingsIBelieve.jsx";
 import Typography from "@mui/material/Typography";
+import CvDetails from "./components/CvDetails/CvDetails.jsx";
 
 function Home() {
     const { t } = useTranslation();
@@ -28,7 +29,9 @@ function Home() {
                 {/*<Typography variant="h2">Welcome</Typography>*/}
             {/*</div>*/}
             <AboutMe />
+            <CvDetails />
             <SomeThingsIBelieve />
+
             <ContactForm />
         </div>
     );

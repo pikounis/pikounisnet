@@ -2,6 +2,7 @@ import React from 'react';
 import { Typography, Paper, List, ListItem, Container, Grid } from '@mui/material';
 import beliefs from './believe.json'; // Ensure this is correctly imported
 import { useTranslation } from 'react-i18next';
+import './SomeThingsIBelieve.css';
 
 function SomeThingsIBelieve() {
     const { i18n } = useTranslation();
@@ -9,8 +10,8 @@ function SomeThingsIBelieve() {
 
     return (
         <div className="believe-root">
-            <Container maxWidth="lg" sx={{ textAlign: 'center', marginBottom: '20px', paddingTop: '100px' }}>
-                <Typography variant="h2">Some things I believe</Typography>
+            <Container maxWidth="lg">
+                <Typography variant="h4" className="believe-title">Some things I believe</Typography>
             </Container>
             <Container maxWidth="lg">
                 <Grid container spacing={2}>

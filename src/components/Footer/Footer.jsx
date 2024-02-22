@@ -37,7 +37,7 @@ function Footer() {
                         <Signature />
                         <Typography variant="body2" color="text.secondary">
                             {'Copyright © '}
-                            <Link color="inherit" href="https://pikoun.is/">
+                            <Link color="inherit" href="https://apikounis.com/">
                                 Anastasios Pikounis
                             </Link>{' '}
                             {new Date().getFullYear()}

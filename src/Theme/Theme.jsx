@@ -37,8 +37,9 @@ const darkTheme = createTheme({
     palette: {
         mode: 'dark',
         primary: {
-            // main: '#90caf9', // a lighter shade of blue for better visibility in dark mode
-            main: '#1e1e1e', // a lighter shade of blue for better visibility in dark mode
+            // main: '#90caf9',
+            // main: '#1e1e1e',
+            main: '#2c2c2c',
 
         },
         secondary: {
