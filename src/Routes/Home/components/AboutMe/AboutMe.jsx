@@ -22,7 +22,15 @@ function AboutMe() {
                     <Box sx={{ height: '50px', width: '100%' }}></Box>
                     <Grid item xs={12} md={12} className="last-grid-item">
                         <Typography align="justify" variant="body1">
-                            {t('bio')}
+                            {t('bio1')}
+                        </Typography>
+                        <br />
+                        <Typography align="justify" variant="body1">
+                            {t('bio2')}
+                        </Typography>
+                        <br />
+                        <Typography align="justify" variant="body1">
+                            {t('bio3')}
                         </Typography>
 
                     </Grid>
