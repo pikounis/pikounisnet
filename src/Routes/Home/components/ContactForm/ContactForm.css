@@ -27,3 +27,7 @@
     /*padding: 2rem;*/
     text-align: center;
 }
+
+.grecaptcha-badge {
+    visibility: hidden;
+}

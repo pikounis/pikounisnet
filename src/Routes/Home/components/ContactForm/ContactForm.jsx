@@ -17,6 +17,7 @@ function ContactForm() {
             return;
         }
 
+
         const recaptchaToken = await executeRecaptcha('contact_form');
 
         // Include the reCAPTCHA token in your form data
@@ -123,6 +124,10 @@ function ContactForm() {
                             <Button type="submit" variant="contained" color="primary">
                                 Send
                             </Button>
+                            <p>This site is protected by reCAPTCHA and the Google
+                                <a href="https://policies.google.com/privacy">Privacy Policy</a> and
+                                <a href="https://policies.google.com/terms">Terms of Service</a> apply.
+                            </p>
                         </form>
                     </Paper>
                 </Box>
