@@ -1,19 +1,31 @@
-import React from "react";
+import React from 'react';
 import { useForm } from 'react-hook-form';
-import TextField from '@mui/material/TextField';
-import Button from '@mui/material/Button';
-import Paper from '@mui/material/Paper';
-import { Box, Container } from '@mui/material';
+import { TextField, Button, Paper, Box, Container, Typography } from '@mui/material';
+import { GoogleReCaptchaProvider, useGoogleReCaptcha } from 'react-google-recaptcha-v3';
 import './ContactForm.css';
-import Typography from "@mui/material/Typography";
 
 function ContactForm() {
     const { register, handleSubmit, formState: { errors }, reset } = useForm({
-        mode: "onBlur"
+        mode: 'onBlur',
     });
 
+    const { executeRecaptcha } = useGoogleReCaptcha();
+
     const onSubmit = async (data) => {
-        console.log(data);
+        if (!executeRecaptcha) {
+            console.log('Execute recaptcha not yet available');
+            return;
+        }
+
+        const recaptchaToken = await executeRecaptcha('contact_form');
+
+        // Include the reCAPTCHA token in your form data
+        const formData = {
+            ...data,
+            recaptchaToken,
+        };
+
+        console.log(formData);
 
         try {
             const response = await fetch('https://pikounisnet-express-backend.vercel.app/api/submit-form', {
@@ -21,43 +33,35 @@ function ContactForm() {
                 headers: {
                     'Content-Type': 'application/json',
                 },
-                body: JSON.stringify(data),
+                body: JSON.stringify(formData),
             });
 
             if (!response.ok) {
-                // If the response is not ok, throw an error with the status
                 throw new Error(`HTTP error: Status ${response.status}`);
             }
 
-            // Assuming your server might return non-JSON responses, handle both cases
-            const contentType = response.headers.get("Content-Type");
+            const contentType = response.headers.get('Content-Type');
             let responseData;
-            if (contentType && contentType.indexOf("application/json") !== -1) {
-                responseData = await response.json(); // Process JSON data
+            if (contentType && contentType.indexOf('application/json') !== -1) {
+                responseData = await response.json();
             } else {
-                responseData = await response.text(); // Process text/plain data
+                responseData = await response.text();
             }
 
-            console.log("Response data:", responseData);
+            console.log('Response data:', responseData);
             alert('Email sent successfully!');
-            reset(); // Reset the form fields after successful submission
+            reset();
         } catch (error) {
             console.error('Fetch error:', error.message);
-            // It's better to be specific about the error message here
             alert(`Failed to send email. Please try again. Error: ${error.message}`);
         }
     };
 
-
-
-
-    // Email validation
-    const validateEmail = email => {
+    const validateEmail = (email) => {
         return email.includes('@') && email.includes('.');
     };
 
-    // Message validation
-    const validateMessageLength = message => {
+    const validateMessageLength = (message) => {
         return message.length > 100;
     };
 
@@ -73,7 +77,7 @@ function ContactForm() {
                                 variant="outlined"
                                 margin="normal"
                                 fullWidth
-                                {...register("name", { required: "Name is required" })}
+                                {...register('name', { required: 'Name is required' })}
                                 error={!!errors.name}
                                 helperText={errors.name ? errors.name.message : ''}
                             />
@@ -83,12 +87,12 @@ function ContactForm() {
                                 variant="outlined"
                                 margin="normal"
                                 fullWidth
-                                {...register("email", {
-                                    required: "Email is required",
-                                    validate: validateEmail
+                                {...register('email', {
+                                    required: 'Email is required',
+                                    validate: validateEmail,
                                 })}
                                 error={!!errors.email}
-                                helperText={errors.email ? (errors.email.message || 'Email must contain @ and .') : ''}
+                                helperText={errors.email ? errors.email.message || 'Email must contain @ and .' : ''}
                             />
 
                             <TextField
@@ -96,7 +100,7 @@ function ContactForm() {
                                 variant="outlined"
                                 margin="normal"
                                 fullWidth
-                                {...register("subject", { required: "Subject is required" })}
+                                {...register('subject', { required: 'Subject is required' })}
                                 error={!!errors.subject}
                                 helperText={errors.subject ? errors.subject.message : ''}
                             />
@@ -108,12 +112,12 @@ function ContactForm() {
                                 fullWidth
                                 multiline
                                 rows={4}
-                                {...register("message", {
-                                    required: "Message is required",
-                                    validate: validateMessageLength
+                                {...register('message', {
+                                    required: 'Message is required',
+                                    validate: validateMessageLength,
                                 })}
                                 error={!!errors.message}
-                                helperText={errors.message ? (errors.message.message || 'Message must be over 100 characters') : ''}
+                                helperText={errors.message ? errors.message.message || 'Message must be over 100 characters' : ''}
                             />
 
                             <Button type="submit" variant="contained" color="primary">
@@ -127,4 +131,11 @@ function ContactForm() {
     );
 }
 
-export default ContactForm;
+// Wrap your ContactForm component with GoogleReCaptchaProvider
+export default function WrappedContactForm() {
+    return (
+        <GoogleReCaptchaProvider reCaptchaKey={process.env.RECAPTCHA_KEY}>
+            <ContactForm />
+        </GoogleReCaptchaProvider>
+    );
+}
