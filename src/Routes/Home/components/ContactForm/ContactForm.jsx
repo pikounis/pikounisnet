@@ -134,7 +134,7 @@ function ContactForm() {
 // Wrap your ContactForm component with GoogleReCaptchaProvider
 export default function WrappedContactForm() {
     return (
-        <GoogleReCaptchaProvider reCaptchaKey={process.env.RECAPTCHA_KEY}>
+        <GoogleReCaptchaProvider reCaptchaKey={import.meta.env.VITE_RECAPTCHA_KEY}>
             <ContactForm />
         </GoogleReCaptchaProvider>
     );
