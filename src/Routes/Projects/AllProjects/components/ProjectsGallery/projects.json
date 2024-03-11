@@ -46,8 +46,8 @@
     },
     "technologies": ["React", "Redux", "NodeJS", "Vercel", "express"],
     "image": "https://pikounisnet-express-backend.vercel.app/assets/projects/sea.png",
-    "websiteUrl": "https://example.com/project2",
-    "githubUrl": "https://github.com/user/project2"
+    "websiteUrl": "",
+    "githubUrl": "https://github.com/pikounis/pikounisnet"
   },
   {
     "id": 3,
@@ -171,7 +171,7 @@
     },
     "technologies": ["Python", "JSON"],
     "image": "https://pikounisnet-express-backend.vercel.app/assets/projects/holafly.svg",
-    "websiteUrl": "",
+    "websiteUrl": "https://esim.holafly.com/",
     "githubUrl": "https://github.com/pikounis/holafly-scraper"
   },
   {
@@ -198,6 +198,31 @@
     "image": "https://pikounisnet-express-backend.vercel.app/assets/projects/eleonora.jpeg",
     "websiteUrl": "",
     "githubUrl": "https://github.com/pikounis/eleonora"
+  },
+  {
+    "id": 9,
+    "title": {
+      "uk": "Connect Phone Scraper",
+      "es": "",
+      "fr": "",
+      "cn": "",
+      "gr": "",
+      "ind": "",
+      "ar": ""
+    },
+    "description": {
+      "uk": "Scrapes the ConnectPhone website and saves all plans to a JSON. This was made to compare the plans between Connect Phone and HolaFly.",
+      "es": "",
+      "fr": "",
+      "cn": "",
+      "gr": "",
+      "ind": "",
+      "ar": ""
+    },
+    "technologies": ["Python", "JSON"],
+    "image": "https://pikounisnet-express-backend.vercel.app/assets/projects/connectphone.jpg",
+    "websiteUrl": "https://connectphone.eu/",
+    "githubUrl": "https://github.com/pikounis/connect-phone-scraper"
   }
 ]
 

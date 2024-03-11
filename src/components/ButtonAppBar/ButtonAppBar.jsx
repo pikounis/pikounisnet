@@ -87,7 +87,7 @@ function ButtonAppBar() {
                         )}
                     </Box>
                     <Box sx={{ display: 'flex', alignItems: 'center' }}>
-                        <LanguagePicker />
+                        {/*<LanguagePicker />*/}
                         <ThemeSwitch />
                     </Box>
                 </Toolbar>

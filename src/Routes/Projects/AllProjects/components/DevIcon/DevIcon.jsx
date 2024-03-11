@@ -30,7 +30,7 @@ function DevIcon({ technology }) {
 
     // Effect for dynamically importing the logo
     useEffect(() => {
-        import(`../../../../../../assets/Technologies/${technology.toLowerCase()}.svg`)
+        import(`../../../../../assets/Technologies/${technology.toLowerCase()}.svg`)
             .then(module => setLogo(module.default))
             .catch(error => console.error(`Failed to load the logo for ${technology}:`, error));
     }, [technology]);
