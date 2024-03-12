@@ -63,12 +63,12 @@ function ContactForm() {
     };
 
     const validateMessageLength = (message) => {
-        return message.length > 100;
+        return message.length > 30;
     };
 
     return (
         <div className="div-style">
-            <Typography variant="h2" className="contact-title">Contact</Typography>
+            <Typography variant="h4" className="contact-title">Contact</Typography>
             <Container>
                 <Box display="flex" justifyContent="center" alignItems="center" p={2}>
                     <Paper className="paper-style">
@@ -118,16 +118,16 @@ function ContactForm() {
                                     validate: validateMessageLength,
                                 })}
                                 error={!!errors.message}
-                                helperText={errors.message ? errors.message.message || 'Message must be over 100 characters' : ''}
+                                helperText={errors.message ? errors.message.message || 'Message must be over 30 characters' : ''}
                             />
 
                             <Button type="submit" variant="contained" color="primary">
                                 Send
                             </Button>
-                            <p>This site is protected by reCAPTCHA and the Google
-                                <a href="https://policies.google.com/privacy">Privacy Policy</a> and
-                                <a href="https://policies.google.com/terms">Terms of Service</a> apply.
-                            </p>
+                            {/*<p>This site is protected by reCAPTCHA and the Google*/}
+                            {/*    <a href="https://policies.google.com/privacy">Privacy Policy</a> and*/}
+                            {/*    <a href="https://policies.google.com/terms">Terms of Service</a> apply.*/}
+                            {/*</p>*/}
                         </form>
                     </Paper>
                 </Box>

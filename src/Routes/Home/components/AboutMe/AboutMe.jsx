@@ -16,7 +16,7 @@ function AboutMe() {
                     <Grid item xs={12} md={6}>
                         <Typography variant="h2" className="aboutme-title" >Anastasios Pikounis</Typography>
                         <Typography variant="body1"className="aboutme-title" >
-                            Support Engineer at <a href="https://fornova.com" target="_blank" >Fornova</a>
+                            Software Engineer
                         </Typography>
                     </Grid>
                     <Box sx={{ height: '50px', width: '100%' }}></Box>
