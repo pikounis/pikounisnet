@@ -19,7 +19,7 @@
 // }
 //
 // export default DevIcon;
-
+// ---------------------------------------------------------------------------------------
 import React, { useState, useEffect } from 'react';
 import Popover from '@mui/material/Popover';
 import Typography from '@mui/material/Typography';
@@ -80,3 +80,4 @@ function DevIcon({ technology }) {
 }
 
 export default DevIcon;
+

@@ -30,8 +30,8 @@ function Home() {
             {/*</div>*/}
             <AboutMe />
             <CvDetails />
-            <SomeThingsIBelieve />
-            {/*<Technologies />*/}
+            {/*<SomeThingsIBelieve />*/}
+            <Technologies />
             <ContactForm />
         </div>
     );
