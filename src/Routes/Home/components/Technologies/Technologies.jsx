@@ -27,7 +27,7 @@ function Technologies() {
         'React', 'Python', 'Java', 'JavaScript', 'TypeScript',
         'Haskell', 'C', 'Redux', 'HTML', 'CSS',
         'NodeJS', 'Spring', 'mySQL', 'PostgreSQL', 'MongoDB',
-        'Firebase', 'Figma', 'PostMan', 'GitHub', 'googleCloud',
+        'Firebase', 'AWS', 'PostMan', 'GitHub', 'googleCloud',
         'express', 'Mui', 'NextJS', 'Docker',
     ];
 
