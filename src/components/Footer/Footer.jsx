@@ -61,7 +61,7 @@ function Footer() {
                         {/*    </IconButton>*/}
                         {/*</Grid>*/}
                         {/*<Grid item>*/}
-                        {/*    <IconButton href="https://x.com/pikounaki" color="inherit" target="_blank">*/}
+                        {/*    <IconButton href="https://x.com/username" color="inherit" target="_blank">*/}
                         {/*        <XIcon style={{ fontSize: '30px' }} />*/}
                         {/*    </IconButton>*/}
                         {/*</Grid>*/}
@@ -73,11 +73,11 @@ function Footer() {
                                 <MusicNoteIcon style={{ fontSize: '30px' }} />
                             </IconButton>
                         </Grid>
-                        <Grid item>
-                            <IconButton href="https://keybase.io/pikounis" color="inherit" target="_blank">
-                                <MailLockIcon style={{ fontSize: '30px' }} />
-                            </IconButton>
-                        </Grid>
+                        {/*<Grid item>*/}
+                        {/*    <IconButton href="https://keybase.io/pikounis" color="inherit" target="_blank">*/}
+                        {/*        <MailLockIcon style={{ fontSize: '30px' }} />*/}
+                        {/*    </IconButton>*/}
+                        {/*</Grid>*/}
                     </Grid>
                 </Grid>
             </Box>
