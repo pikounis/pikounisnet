@@ -10,7 +10,7 @@ export default Photo;
 
 
 
-//
+
 // import React from "react";
 // import myphoto from '/photo.jpg';
 // import Avatar from '@mui/material/Avatar';
@@ -24,7 +24,7 @@ export default Photo;
 //             <Avatar alt="Anastasios Pikounis" src={myphoto} sx={{ width: 250, height: 250 }} />
 //             <Box
 //                 position="absolute"
-//                 top={22} // Adjusted to align better with the avatar's curve
+//                 bottom={22} // Adjusted to align better with the avatar's curve
 //                 right={22}
 //                 sx={{
 //                     display: 'flex',

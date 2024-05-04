@@ -15,28 +15,28 @@ function AboutMe() {
                     <Grid item xs={12} md={6} container justifyContent="center" alignItems="center">
                         <Photo />
                     </Grid>
-                    {/*<Grid item xs={12} md={6}>*/}
-                    {/*    <Typography variant="h2" className="aboutme-title" >Anastasios Pikounis</Typography>*/}
-                    {/*    <Typography variant="body1"className="aboutme-title" >*/}
-                    {/*        Software Engineer*/}
-                    {/*    </Typography>*/}
-                    {/*</Grid>*/}
                     <Grid item xs={12} md={6}>
-                        <Box>
-                            {/* Name and Verified Icon on the same line */}
-                            <Box display="flex" alignItems="center">
-                                <Typography variant="h2" className="aboutme-title" sx={{ marginRight: 1 }}>
-                                    Anastasios Pikounis
-                                </Typography>
-                                <VerifiedIcon sx={{ color: blue[500], fontSize: '1.5rem' }} />
-                            </Box>
-
-                            {/* Job Title below Name and Icon */}
-                            <Typography variant="body1" className="aboutme-title">
-                                Software Engineer
-                            </Typography>
-                        </Box>
+                        <Typography variant="h2" className="aboutme-title" >Anastasios Pikounis</Typography>
+                        <Typography variant="body1"className="aboutme-title" >
+                            Software Engineer
+                        </Typography>
                     </Grid>
+                    {/*<Grid item xs={12} md={6}>*/}
+                    {/*    <Box>*/}
+                    {/*        /!* Name and Verified Icon on the same line *!/*/}
+                    {/*        <Box display="flex" alignItems="center">*/}
+                    {/*            <Typography variant="h2" className="aboutme-title" sx={{ marginRight: 1 }}>*/}
+                    {/*                Anastasios Pikounis*/}
+                    {/*            </Typography>*/}
+                    {/*            <VerifiedIcon sx={{ color: blue[500], fontSize: '1.5rem' }} />*/}
+                    {/*        </Box>*/}
+
+                    {/*        /!* Job Title below Name and Icon *!/*/}
+                    {/*        <Typography variant="body1" className="aboutme-title">*/}
+                    {/*            Software Engineer*/}
+                    {/*        </Typography>*/}
+                    {/*    </Box>*/}
+                    {/*</Grid>*/}
                     <Box sx={{ height: '50px', width: '100%' }}></Box>
                     <Grid item xs={12} md={12} className="last-grid-item">
                         <Typography align="justify" variant="body1">
