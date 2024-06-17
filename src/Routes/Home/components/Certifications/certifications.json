@@ -4,15 +4,15 @@
     "link": "https://pikounisnet-express-backend.vercel.app/assets/certifications/aws_cloud_practitioner.png"
   },
   {
-    "name": "Scrum.org - PSM1",
+    "name": "Scrum.org - PSM1 (Scrum Master)",
     "link": "https://pikounisnet-express-backend.vercel.app/assets/certifications/PSM1.png"
   },
   {
-    "name": "Wiley - Java Fullstack",
+    "name": "Wiley Edge - Java Fullstack",
     "link": "https://pikounisnet-express-backend.vercel.app/assets/certifications/wiley_fullstack.png"
   },
   {
-    "name": "Wiley - Python",
+    "name": "Wiley Edge - Python",
     "link": "https://pikounisnet-express-backend.vercel.app/assets/certifications/wiley_python.png"
   }
 ]
