@@ -1,24 +1,33 @@
 [
   {
     "id": 1,
-    "date": "Jan 2024 - Present",
+    "date": "Sep 2024 - Present",
+    "title": "Software Engineer",
+    "subtitle": "Sky",
+    "description": "",
+    "icon": "https://pikounisnet-express-backend.vercel.app/assets/timeline_logos/sky.jpg",
+    "website": "https://www.sky.com/"
+  },
+  {
+    "id": 2,
+    "date": "Jan 2024 - Aug 2024",
     "title": "Support Engineer",
     "subtitle": "Fornova",
-    "description": "At Fornova, one of our solutions is for the hospitality industry helping hotels increase their sales up to 30%. We help our customers make business decisions and effective pricing by comparing data that we scrape for them daily. Technologies that I use include Python, JavaScript, SQL and MongoDB.",
+    "description": "At Fornova, I worked as a support engineer on two of our SaaS products. Distribution Intelligence and Competitive Intelligence. These products are used all over the hospitality industry helping hotels increase their sales up to 30%. We help our customers make business decisions and effective pricing by comparing data that we scrape for them daily. Technologies that I use daily include Python, JavaScript, SQL, MongoDB, Elastic Kibana and Tableau.",
     "icon": "https://pikounisnet-express-backend.vercel.app/assets/timeline_logos/fornova.png",
     "website": "https://www.fornova.com/"
   },
   {
-    "id": 2,
+    "id": 3,
     "date": "Jan 2023 - Dec 2023",
     "title": "Operations",
     "subtitle": "BPP University",
-    "description": "Administering attendance reports for students and professors using Salesforce Dashboards. Supporting the attendance team by tracking and responding to Student Authorized Leave requests. Made scripts in Python that automated 50% of my job.",
+    "description": "Administering attendance reports for students and professors using Salesforce Dashboards. Supporting the attendance team by tracking and responding to Student Authorized Leave requests. Made scripts in Python that automated the need for manual Excel sheets.",
     "icon": "https://pikounisnet-express-backend.vercel.app/assets/timeline_logos/bpp.png",
     "website": "https://www.bpp.com/"
   },
   {
-    "id": 3,
+    "id": 4,
     "date": "Sep 2022 - Oct 2022",
     "title": "Software Engineering Intern",
     "subtitle": "Wiley Edge",
@@ -27,7 +36,7 @@
     "website": "https://www.wiley.com/edge/"
   },
   {
-    "id": 4,
+    "id": 5,
     "date": "Jun 2020 - Aug 2020",
     "title": "Software Engineering Intern",
     "subtitle": "Express Publishing",
@@ -36,7 +45,7 @@
     "website": "https://www.expresspublishing.co.uk/en"
   },
   {
-    "id": 5,
+    "id": 6,
     "date": "Aug 2019 - Sep 2019",
     "title": "Software Engineering Intern",
     "subtitle": "Triton - Asset Management",
@@ -45,7 +54,7 @@
     "website": "https://en.triton-am.com/"
   },
   {
-    "id": 6,
+    "id": 7,
     "date": "Jun 2018 - Jul 2018",
     "title": "Software Engineering Intern",
     "subtitle": "Navarino Telecom",
@@ -54,7 +63,7 @@
     "website": "https://navarino.co.uk/"
   },
   {
-    "id": 7,
+    "id": 8,
     "date": "Jun 2017 - Jul 2017",
     "title": "Cyber - Pen testing Intern",
     "subtitle": "Adacom Cyber Security",
@@ -63,7 +72,7 @@
     "website": "https://www.adacom.com/"
   },
   {
-    "id": 8,
+    "id": 9,
     "date": "Jul 2016 - Aug 2016",
     "title": "Software Engineering Intern",
     "subtitle": "Agile Actors",
@@ -72,7 +81,7 @@
     "website": "https://www.agileactors.com/"
   },
   {
-    "id": 9,
+    "id": 10,
     "date": "2018 - 2022",
     "title": "BSc Computer Science",
     "subtitle": "Royal Holloway, University of London",
@@ -81,7 +90,7 @@
     "website": "https://royalholloway.ac.uk/"
   },
   {
-    "id": 10,
+    "id": 11,
     "date": "2017 - 2018",
     "title": "Foundation Studies",
     "subtitle": "University of Bradford",
@@ -90,7 +99,7 @@
     "website": "https://www.bradford.ac.uk/"
   },
   {
-    "id": 11,
+    "id": 12,
     "date": "2005 - 2016",
     "title": "GCSE",
     "subtitle": "St. Catherines British School",
