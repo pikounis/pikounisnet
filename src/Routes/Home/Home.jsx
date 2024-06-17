@@ -11,6 +11,7 @@ import SomeThingsIBelieve from "./components/SomeThingsIBelieve/SomeThingsIBelie
 import Technologies from "./components/Technologies/Technologies.jsx";
 import Typography from "@mui/material/Typography";
 import CvDetails from "./components/CvDetails/CvDetails.jsx";
+import Certifications from "./components/Certifications/Certifications.jsx";
 
 function Home() {
     const { t } = useTranslation();
@@ -32,6 +33,7 @@ function Home() {
             <CvDetails />
             {/*<SomeThingsIBelieve />*/}
             <Technologies />
+            <Certifications />
             <ContactForm />
         </div>
     );

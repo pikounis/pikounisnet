@@ -1,0 +1,25 @@
+.certifications-root {
+    margin-top: 20px;
+}
+
+.certifications-title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.certifications-container {
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.certification-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.certification-logo {
+    max-width: 100px;
+    max-height: 100px;
+}

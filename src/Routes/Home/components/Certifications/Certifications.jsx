@@ -1,72 +1,40 @@
 import React, { useEffect, useState } from 'react';
-import { Typography, Paper, Container, Grid, Fab } from '@mui/material';
-import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
-import ExpandLessIcon from '@mui/icons-material/ExpandLess';
-import './Technologies.css';
+import { Typography, Paper, Container, Grid } from '@mui/material';
+import './Certifications.css';
+import certificationsData from './certifications.json';
 
-
-// TechnologyLogo Component
-function TechnologyLogo({ technology }) {
-    const [logo, setLogo] = useState(null);
-
-    useEffect(() => {
-        import(`../../../../assets/Technologies/${technology.toLowerCase()}.svg`)
-            .then(module => setLogo(module.default))
-            .catch(error => console.error(`Failed to load the logo for ${technology}:`, error));
-    }, [technology]);
-
-    if (!logo) {
-        return null; // Or some placeholder
-    }
-
-    return <img src={logo} alt={`${technology} logo`} style={{ maxWidth: '50px', maxHeight: '50px' }} />;
+// CertificationLogo Component
+function CertificationLogo({ link }) {
+    return <img src={link} alt="Certification logo" className="certification-logo" />;
 }
 
-function Technologies() {
-    const technologies = [
-        'React', 'Python', 'Java', 'JavaScript', 'TypeScript',
-        'Haskell', 'C', 'Redux', 'HTML', 'CSS',
-        'NodeJS', 'Spring', 'mySQL', 'PostgreSQL', 'MongoDB',
-        'Firebase', 'AWS', 'PostMan', 'GitHub', 'googleCloud',
-        'express', 'Mui', 'NextJS', 'Docker',
-    ];
+function Certifications() {
+    const [certifications, setCertifications] = useState([]);
 
-    const [displayedTechnologies, setDisplayedTechnologies] = useState(technologies.slice(0, 10));
-    const [isExpanded, setIsExpanded] = useState(false); // State to manage expansion
-
-    const handleToggleExpand = () => {
-        if (isExpanded) {
-            setDisplayedTechnologies(technologies.slice(0, 10)); // Collapse to show fewer items
-        } else {
-            setDisplayedTechnologies(technologies); // Expand to show all items
-        }
-        setIsExpanded(!isExpanded); // Toggle expansion state
-    };
+    useEffect(() => {
+        // Simulating fetching data from a JSON file
+        setCertifications(certificationsData);
+    }, []);
 
     return (
-        <div className="believe-root">
+        <div className="certifications-root">
             <Container maxWidth="lg">
-                <Typography variant="h4" className="believe-title">Technologies</Typography>
-                <Paper elevation={3} style={{ padding: '20px', marginTop: '20px' }}>
+                <Typography variant="h4" className="certifications-title">Certifications</Typography>
+                <Paper elevation={3} className="certifications-container">
                     <Grid container spacing={4} alignItems="center" justifyContent="center">
-                        {displayedTechnologies.map((technology, index) => (
+                        {certifications.map((certification, index) => (
                             <Grid item xs={6} sm={4} md={3} lg={2} key={index}>
-                                <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-                                    <TechnologyLogo technology={technology} />
-                                    <Typography variant="subtitle1">{technology}</Typography>
+                                <div className="certification-item">
+                                    <CertificationLogo link={certification.link} />
+                                    <Typography variant="subtitle1">{certification.name}</Typography>
                                 </div>
                             </Grid>
                         ))}
                     </Grid>
-                    <div style={{ display: 'flex', justifyContent: 'center', marginTop: '20px' }}>
-                        <Fab color="primary" aria-label={isExpanded ? "show less" : "show more"} onClick={handleToggleExpand}>
-                            {isExpanded ? <ExpandLessIcon /> : <ExpandMoreIcon />}
-                        </Fab>
-                    </div>
                 </Paper>
             </Container>
         </div>
     );
 }
 
-export default Technologies;
+export default Certifications;
