@@ -43,7 +43,7 @@ function Footer() {
                                 Anastasios Pikounis
                             </Link>{' '}
                             {new Date().getFullYear()}
-                            {'.'}
+                            {/*{'.'}*/}
                         </Typography>
                     </Grid>
                     <Grid item xs={12} sm={4} container justifyContent="center" alignItems="center" spacing={2}>

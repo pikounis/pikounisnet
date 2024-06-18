@@ -10,9 +10,12 @@ import { useSelector } from 'react-redux';
 import ButtonAppBar from "./components/ButtonAppBar/ButtonAppBar.jsx";
 import LanguageSynchronizer from '../src/Translation/LanguageSynchronizer.jsx';
 import Footer from "./components/Footer/Footer.jsx";
+import useDirection from "./useDirection.jsx";
+
 
 function App() {
     const themeName = useSelector((state) => state.theme.currentTheme);
+    useDirection(); // Include useDirection hook
 
     // Determine the theme based on Redux state
     const currentTheme = () => {
