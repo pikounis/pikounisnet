@@ -16,9 +16,9 @@ function AboutMe() {
                         <Photo />
                     </Grid>
                     <Grid item xs={12} md={6}>
-                        <Typography variant="h2" className="aboutme-title" >Anastasios Pikounis</Typography>
+                        <Typography variant="h2" className="aboutme-title" >{t('myname')}</Typography>
                         <Typography variant="body1"className="aboutme-title" >
-                            Software Engineer
+                            {t('softwareengineer')}
                         </Typography>
                     </Grid>
                     {/*<Grid item xs={12} md={6}>*/}

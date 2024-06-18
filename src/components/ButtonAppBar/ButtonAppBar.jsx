@@ -11,8 +11,10 @@ import { useNavigate } from 'react-router-dom';
 import LanguagePicker from "./components/LanguagePicker/LanguagePicker.jsx";
 import LogoAP from "./components/LogoAP/LogoAP.jsx";
 import ThemeSwitch from "./components/ThemeSwitch/ThemeSwitch.jsx";
+import {useTranslation} from "react-i18next";
 
 function ButtonAppBar() {
+    const { t } = useTranslation();
     const navigate = useNavigate();
     const [isMobile, setIsMobile] = useState(window.innerWidth < 430);
     const [anchorEl, setAnchorEl] = useState(null);
@@ -73,21 +75,21 @@ function ButtonAppBar() {
                                     open={open}
                                     onClose={handleMenuClose}
                                 >
-                                    <MenuItem onClick={() => handleNavigate('/')} sx={{ justifyContent: 'center' }}>Home</MenuItem>
-                                    <MenuItem onClick={() => handleNavigate('/timeline')} sx={{ justifyContent: 'center' }}>Timeline</MenuItem>
-                                    <MenuItem onClick={() => handleNavigate('/projects')} sx={{ justifyContent: 'center' }}>Projects</MenuItem>
+                                    <MenuItem onClick={() => handleNavigate('/')} sx={{ justifyContent: 'center' }}>{t('home')}</MenuItem>
+                                    <MenuItem onClick={() => handleNavigate('/timeline')} sx={{ justifyContent: 'center' }}>{t('timeline')}</MenuItem>
+                                    <MenuItem onClick={() => handleNavigate('/projects')} sx={{ justifyContent: 'center' }}>{t('projects')}</MenuItem>
                                 </Menu>
                             </>
                         ) : (
                             <div>
-                                <Button color="inherit" onClick={() => navigate('/')}>Home</Button>
-                                <Button color="inherit" onClick={() => navigate('/timeline')}>Timeline</Button>
-                                <Button color="inherit" onClick={() => navigate('/projects')}>Projects</Button>
+                                <Button color="inherit" onClick={() => navigate('/')}>{t('home')}</Button>
+                                <Button color="inherit" onClick={() => navigate('/timeline')}>{t('timeline')}</Button>
+                                <Button color="inherit" onClick={() => navigate('/projects')}>{t('projects')}</Button>
                             </div>
                         )}
                     </Box>
                     <Box sx={{ display: 'flex', alignItems: 'center' }}>
-                        {/*<LanguagePicker />*/}
+                        <LanguagePicker />
                         <ThemeSwitch />
                     </Box>
                 </Toolbar>

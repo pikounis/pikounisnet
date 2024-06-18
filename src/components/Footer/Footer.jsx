@@ -11,9 +11,11 @@ import ExpandLessIcon from '@mui/icons-material/ExpandLess';
 import IconButton from '@mui/material/IconButton';
 import ThemeMenu from "../ButtonAppBar/components/ThemeMenu/ThemeMenu.jsx";
 import './Footer.css';
+import {useTranslation} from "react-i18next";
 
 function Footer() {
     const theme = useTheme();
+    const { t } = useTranslation();
 
     return (
         <div >

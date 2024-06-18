@@ -1,4 +1,20 @@
 {
   "welcomeMessage": "Welcome in CN",
-  "description": "Chinese"
+  "description": "Chinese",
+  "softwareengineer": "软件工程师",
+  "home": "主页",
+  "timeline": "时间线",
+  "projects": "项目",
+  "technologies": "技术",
+  "certifications": "认证",
+  "name": "姓名",
+  "email": "电子邮件",
+  "subject": "主题",
+  "message": "信息",
+  "send": "发送",
+  "cv": "简历",
+  "contact": "联系",
+  "bio1": "您好，我是一名住在伦敦的软件工程师。17 岁时，我从希腊来到英国学习。我先在布拉德福德大学攻读预科，然后在伦敦大学皇家霍洛威学院完成了计算机科学本科学位。最近，我开始在 Sky 担任软件工程师，同时关注最新的技术进步。",
+  "bio2": "我热衷于持续学习、开发软件、投资、航海、潜水和音乐。我目前正在使用 React 开发两个应用程序，增强对算法的理解，并为 AWS 认证考试做准备。",
+  "bio3": "在闲暇时间，我的活动因地点而异；在英国，我会锻炼身体、游泳和骑自行车。而在希腊，您可能会发现我在航海、潜水或探索山间小径。"
 }

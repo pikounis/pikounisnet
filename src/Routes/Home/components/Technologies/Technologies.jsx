@@ -3,8 +3,10 @@ import { Typography, Paper, Container, Fab } from '@mui/material';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import ExpandLessIcon from '@mui/icons-material/ExpandLess';
 import './Technologies.css';
+import {useTranslation} from "react-i18next";
 
 function TechnologyLogo({ technology }) {
+
     const [logo, setLogo] = useState(null);
 
     useEffect(() => {
@@ -21,6 +23,7 @@ function TechnologyLogo({ technology }) {
 }
 
 function Technologies() {
+    const { t } = useTranslation();
     const technologies = [
         'React', 'Python', 'Java', 'JavaScript', 'TypeScript',
         'Haskell', 'C', 'Redux', 'HTML', 'CSS',
@@ -44,7 +47,7 @@ function Technologies() {
     return (
         <div className="technologies-root">
             <Container maxWidth="lg">
-                <Typography variant="h4" className="technologies-title">Technologies</Typography>
+                <Typography variant="h4" className="technologies-title">{t('technologies')}</Typography>
                 <Paper elevation={3} className="technologies-container">
                     {displayedTechnologies.map((technology, index) => (
                         <div key={index} className="common-item">

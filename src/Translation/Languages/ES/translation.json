@@ -1,4 +1,20 @@
 {
   "welcomeMessage": "Welcome in SP",
-  "description": "Spanish"
+  "description": "Spanish",
+  "softwareengineer": "Ingeniero de Software",
+  "home": "Inicio",
+  "timeline": "Cronología",
+  "projects": "Proyectos",
+  "technologies": "Tecnologías",
+  "certifications": "Certificaciones",
+  "name": "Nombre",
+  "email": "Correo Electrónico",
+  "subject": "Asunto",
+  "message": "Mensaje",
+  "send": "Enviar",
+  "cv": "CV",
+  "contact": "Contacto",
+  "bio1": "Hola, soy un ingeniero de software que vive en Londres. A los 17 años, me mudé de Grecia al Reino Unido para estudiar. Primero asistí a la Universidad de Bradford para realizar mis estudios básicos y luego completé mi licenciatura en Ciencias de la Computación en Royal Holloway, Universidad de Londres. Recientemente, comencé a trabajar como ingeniero de software en Sky y al mismo tiempo me mantuve actualizado con los últimos avances tecnológicos.",
+  "bio2": "Me apasiona el aprendizaje continuo, la construcción de software, la inversión, la navegación, el buceo y la música. Actualmente estoy involucrado en el desarrollo de dos aplicaciones usando React, mejorando mi comprensión de los algoritmos y preparándome para el examen de certificación de AWS.",
+  "bio3": "En mi tiempo libre, mis actividades varían según la ubicación; En el Reino Unido me mantengo activo haciendo ejercicio, nadando y montando en bicicleta. Mientras tanto, en Grecia, probablemente me encontrarás navegando, sumergiéndome en las profundidades o explorando los senderos de montaña."
 }

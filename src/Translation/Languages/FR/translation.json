@@ -1,4 +1,20 @@
 {
   "welcomeMessage": "Welcome in FR",
-  "description": "French"
+  "description": "French",
+  "softwareengineer": "Ingénieur Logiciel",
+  "home": "Accueil",
+  "timeline": "Chronologie",
+  "projects": "Projets",
+  "technologies": "Technologies",
+  "certifications": "Certifications",
+  "name": "Nom",
+  "email": "Email",
+  "subject": "Sujet",
+  "message": "Message",
+  "send": "Envoyer",
+  "cv": "CV",
+  "contact": "Contact",
+  "bio1": "Bonjour, je suis un ingénieur logiciel basé à Londres. À 17 ans, j'ai quitté la Grèce pour le Royaume-Uni pour mes études. J'ai d'abord fréquenté l'Université de Bradford pour mes études de base, puis j'ai obtenu mon diplôme de premier cycle en informatique à Royal Holloway, Université de Londres. Récemment, j'ai commencé à travailler comme ingénieur logiciel chez Sky tout en me tenant au courant des dernières avancées technologiques.",
+  "bio2": "Je suis passionné par l'apprentissage continu, la création de logiciels, l'investissement, la voile, la plongée sous-marine et la musique. Je suis actuellement engagé dans le développement de deux applications utilisant React, améliorant ma compréhension des algorithmes et préparant l'examen de certification AWS.",
+  "bio3": "Pendant mon temps libre, mes activités varient selon le lieu ; au Royaume-Uni, je reste actif en faisant de l'exercice, de la natation et du vélo. Pendant ce temps, en Grèce, vous me trouverez probablement en train de naviguer, de plonger dans les profondeurs ou d'explorer les sentiers de montagne."
 }

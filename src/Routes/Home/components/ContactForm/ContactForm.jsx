@@ -3,8 +3,10 @@ import { useForm } from 'react-hook-form';
 import { TextField, Button, Paper, Box, Container, Typography } from '@mui/material';
 import { GoogleReCaptchaProvider, useGoogleReCaptcha } from 'react-google-recaptcha-v3';
 import './ContactForm.css';
+import {useTranslation} from "react-i18next";
 
 function ContactForm() {
+    const { t } = useTranslation();
     const { register, handleSubmit, formState: { errors }, reset } = useForm({
         mode: 'onBlur',
     });
@@ -68,13 +70,13 @@ function ContactForm() {
 
     return (
         <div className="div-style">
-            <Typography variant="h4" className="contact-title">Contact</Typography>
+            <Typography variant="h4" className="contact-title">{t('contact')}</Typography>
             <Container>
                 <Box display="flex" justifyContent="center" alignItems="center" p={2}>
                     <Paper className="paper-style">
                         <form onSubmit={handleSubmit(onSubmit)} noValidate>
                             <TextField
-                                label="Name"
+                                label={t('name')}
                                 variant="outlined"
                                 margin="normal"
                                 fullWidth
@@ -84,7 +86,7 @@ function ContactForm() {
                             />
 
                             <TextField
-                                label="Email"
+                                label={t('email')}
                                 variant="outlined"
                                 margin="normal"
                                 fullWidth
@@ -97,7 +99,7 @@ function ContactForm() {
                             />
 
                             <TextField
-                                label="Subject"
+                                label={t('subject')}
                                 variant="outlined"
                                 margin="normal"
                                 fullWidth
@@ -107,7 +109,7 @@ function ContactForm() {
                             />
 
                             <TextField
-                                label="Message"
+                                label={t('message')}
                                 variant="outlined"
                                 margin="normal"
                                 fullWidth
@@ -122,7 +124,7 @@ function ContactForm() {
                             />
 
                             <Button type="submit" variant="contained" color="primary">
-                                Send
+                                {t('send')}
                             </Button>
                             {/*<p>This site is protected by reCAPTCHA and the Google*/}
                             {/*    <a href="https://policies.google.com/privacy">Privacy Policy</a> and*/}

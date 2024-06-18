@@ -3,9 +3,11 @@ import "./CvDetails.css"
 import { Button } from '@mui/material';
 import PictureAsPdfIcon from '@mui/icons-material/PictureAsPdf';
 import CV from '../../../../assets/CV_PIKOUNIS_ANASTASIOS.pdf'
+import {useTranslation} from "react-i18next";
 
 const CvDetails = () => {
     // URL to your CV - update this to the actual URL of your CV
+    const { t } = useTranslation();
     const cvUrl = CV
 
     return (
@@ -16,7 +18,7 @@ const CvDetails = () => {
                 onClick={() => window.open(cvUrl, '_blank')}
                 startIcon={<PictureAsPdfIcon />}
             >
-                CV
+                {t('cv')}
             </Button>
         </div>
 
