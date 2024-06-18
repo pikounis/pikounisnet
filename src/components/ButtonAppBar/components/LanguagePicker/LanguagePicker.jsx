@@ -11,11 +11,11 @@ import './LanguagePicker.css';
 const options = [
     { name: 'Arabic', code: 'ar' },
     { name: 'Chinese', code: 'cn' },
+    { name: 'English', code: 'uk' },
     { name: 'French', code: 'fr' },
     { name: 'Greek', code: 'gr' },
     { name: 'Hindi', code: 'ind' },
-    { name: 'Spanish', code: 'es' },
-    { name: 'English', code: 'uk' }
+    { name: 'Spanish', code: 'es' }
 ];
 
 function LanguagePicker() {
