@@ -1,11 +1,9 @@
 import React, { useEffect, useState } from 'react';
-import { Typography, Paper, Container, Grid, Fab } from '@mui/material';
+import { Typography, Paper, Container, Fab } from '@mui/material';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import ExpandLessIcon from '@mui/icons-material/ExpandLess';
 import './Technologies.css';
 
-
-// TechnologyLogo Component
 function TechnologyLogo({ technology }) {
     const [logo, setLogo] = useState(null);
 
@@ -16,10 +14,10 @@ function TechnologyLogo({ technology }) {
     }, [technology]);
 
     if (!logo) {
-        return null; // Or some placeholder
+        return null;
     }
 
-    return <img src={logo} alt={`${technology} logo`} style={{ maxWidth: '50px', maxHeight: '50px' }} />;
+    return <img src={logo} alt={`${technology} logo`} className="common-logo" />;
 }
 
 function Technologies() {
@@ -32,38 +30,34 @@ function Technologies() {
     ];
 
     const [displayedTechnologies, setDisplayedTechnologies] = useState(technologies.slice(0, 10));
-    const [isExpanded, setIsExpanded] = useState(false); // State to manage expansion
+    const [isExpanded, setIsExpanded] = useState(false);
 
     const handleToggleExpand = () => {
         if (isExpanded) {
-            setDisplayedTechnologies(technologies.slice(0, 10)); // Collapse to show fewer items
+            setDisplayedTechnologies(technologies.slice(0, 10));
         } else {
-            setDisplayedTechnologies(technologies); // Expand to show all items
+            setDisplayedTechnologies(technologies);
         }
-        setIsExpanded(!isExpanded); // Toggle expansion state
+        setIsExpanded(!isExpanded);
     };
 
     return (
-        <div className="believe-root">
+        <div className="technologies-root">
             <Container maxWidth="lg">
-                <Typography variant="h4" className="believe-title">Technologies</Typography>
-                <Paper elevation={3} style={{ padding: '20px', marginTop: '20px' }}>
-                    <Grid container spacing={4} alignItems="center" justifyContent="center">
-                        {displayedTechnologies.map((technology, index) => (
-                            <Grid item xs={6} sm={4} md={3} lg={2} key={index}>
-                                <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-                                    <TechnologyLogo technology={technology} />
-                                    <Typography variant="subtitle1">{technology}</Typography>
-                                </div>
-                            </Grid>
-                        ))}
-                    </Grid>
-                    <div style={{ display: 'flex', justifyContent: 'center', marginTop: '20px' }}>
-                        <Fab color="primary" aria-label={isExpanded ? "show less" : "show more"} onClick={handleToggleExpand}>
-                            {isExpanded ? <ExpandLessIcon /> : <ExpandMoreIcon />}
-                        </Fab>
-                    </div>
+                <Typography variant="h4" className="technologies-title">Technologies</Typography>
+                <Paper elevation={3} className="technologies-container">
+                    {displayedTechnologies.map((technology, index) => (
+                        <div key={index} className="common-item">
+                            <TechnologyLogo technology={technology} />
+                            <Typography variant="subtitle1">{technology}</Typography>
+                        </div>
+                    ))}
                 </Paper>
+                <div style={{ display: 'flex', justifyContent: 'center', marginTop: '20px' }}>
+                    <Fab color="primary" aria-label={isExpanded ? "show less" : "show more"} onClick={handleToggleExpand}>
+                        {isExpanded ? <ExpandLessIcon /> : <ExpandMoreIcon />}
+                    </Fab>
+                </div>
             </Container>
         </div>
     );
