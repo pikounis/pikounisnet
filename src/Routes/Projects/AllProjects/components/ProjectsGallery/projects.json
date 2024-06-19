@@ -223,7 +223,34 @@
     "image": "https://pikounisnet-express-backend.vercel.app/assets/projects/connectphone.jpg",
     "websiteUrl": "https://connectphone.eu/",
     "githubUrl": "https://github.com/pikounis/connect-phone-scraper"
+  },
+  {
+    "id": 10,
+    "title": {
+      "uk": "Retail System",
+      "es": "",
+      "fr": "",
+      "cn": "",
+      "gr": "",
+      "ind": "",
+      "ar": ""
+    },
+    "description": {
+      "uk": "This is a retail system build in Java and mySQL for the database. It was made during my time in Wiley edge while training.",
+      "es": "",
+      "fr": "",
+      "cn": "",
+      "gr": "",
+      "ind": "",
+      "ar": ""
+    },
+    "technologies": ["Java", "HTML", "CSS", "JavaScript", "MySQL"],
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuJQJa0xZFIznepBHfoW6RoelJrRXCKrvmxQ&s",
+    "websiteUrl": "",
+    "githubUrl": "https://github.com/pikounis/wileyc293group4"
   }
 ]
+
+
 
 
