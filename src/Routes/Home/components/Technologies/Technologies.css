@@ -8,11 +8,11 @@
 }
 
 .technologies-container {
-    padding: 50px;
+    padding: 15px;
     margin-top: 50px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: left;
 }
 
 .common-item {
