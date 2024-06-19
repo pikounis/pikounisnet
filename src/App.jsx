@@ -11,7 +11,7 @@ import ButtonAppBar from "./components/ButtonAppBar/ButtonAppBar.jsx";
 import LanguageSynchronizer from '../src/Translation/LanguageSynchronizer.jsx';
 import Footer from "./components/Footer/Footer.jsx";
 import useDirection from "./useDirection.jsx";
-
+import ScrollToTop from './ScrollToTop';
 
 function App() {
     const themeName = useSelector((state) => state.theme.currentTheme);
@@ -38,6 +38,7 @@ function App() {
             <CssBaseline />
             <LanguageSynchronizer /> {/* Include LanguageSynchronizer */}
             <div className="app-container">
+                <ScrollToTop /> {/* Include ScrollToTop */}
                 <ButtonAppBar />
                 <div className="content-grow">
                     <Routes>
@@ -49,7 +50,6 @@ function App() {
                 </div>
                 <Footer />
             </div>
-
         </ThemeProvider>
     );
 }
