@@ -9,7 +9,7 @@ import Flags from './components/Flags/Flags.jsx';
 import './LanguagePicker.css';
 
 const options = [
-    { name: 'Arabic', code: 'ar' },
+    // { name: 'Arabic', code: 'ar' },
     { name: 'Chinese', code: 'cn' },
     { name: 'English', code: 'uk' },
     { name: 'French', code: 'fr' },
