@@ -42,10 +42,10 @@ function App() {
         <ThemeProvider theme={currentTheme()}>
             <CssBaseline />
             <LanguageSynchronizer /> {/* Include LanguageSynchronizer */}
-            <div className="app-container">
+            <div className="app-container" dir={isRtlRoute ? 'rtl' : 'ltr'}>
                 <ScrollToTop /> {/* Include ScrollToTop */}
                 <ButtonAppBar />
-                <div className="content-grow" dir={isRtlRoute ? 'rtl' : 'ltr'}>
+                <div className="content-grow">
                     <Routes>
                         <Route path="/" element={<Home />} />
                         <Route path="/timeline" element={<Timeline />} />

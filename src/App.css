@@ -16,7 +16,6 @@
   filter: drop-shadow(0 0 20em #f60000);
 }
 
-
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);
@@ -44,10 +43,20 @@
 
 .content-grow {
   flex: 1;
+  padding: 2rem; /* Adjust padding to ensure content is not flush against the edges */
 }
 
+/* RTL adjustments */
+[dir="rtl"] .app-container {
+  direction: rtl; /* Ensure the container and text direction is RTL */
+}
 
+[dir="rtl"] .content-grow {
+  padding-right: 2rem; /* Adjust padding for RTL layout */
+  padding-left: 0; /* Remove left padding for RTL */
+}
 
-/*.read-the-docs {*/
-/*  color: #888;*/
-/*}*/
+/* Optional: Adjust specific elements if necessary */
+[dir="rtl"] .card {
+  text-align: right; /* Ensure card content is aligned correctly for RTL */
+}
