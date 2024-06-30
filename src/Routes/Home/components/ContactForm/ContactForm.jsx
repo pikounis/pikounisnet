@@ -1,17 +1,18 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useForm } from 'react-hook-form';
-import { TextField, Button, Paper, Box, Container, Typography } from '@mui/material';
+import { TextField, Button, Paper, Box, Container, Typography, CircularProgress } from '@mui/material';
 import { GoogleReCaptchaProvider, useGoogleReCaptcha } from 'react-google-recaptcha-v3';
+import { green } from '@mui/material/colors';
 import './ContactForm.css';
-import {useTranslation} from "react-i18next";
+import { useTranslation } from "react-i18next";
 
 function ContactForm() {
     const { t } = useTranslation();
     const { register, handleSubmit, formState: { errors }, reset } = useForm({
         mode: 'onBlur',
     });
-
     const { executeRecaptcha } = useGoogleReCaptcha();
+    const [loading, setLoading] = useState(false);
 
     const onSubmit = async (data) => {
         if (!executeRecaptcha) {
@@ -19,10 +20,10 @@ function ContactForm() {
             return;
         }
 
+        setLoading(true); // Set loading to true
 
         const recaptchaToken = await executeRecaptcha('contact_form');
 
-        // Include the reCAPTCHA token in your form data
         const formData = {
             ...data,
             recaptchaToken,
@@ -57,6 +58,8 @@ function ContactForm() {
         } catch (error) {
             console.error('Fetch error:', error.message);
             alert(`Failed to send email. Please try again. Error: ${error.message}`);
+        } finally {
+            setLoading(false); // Set loading to false
         }
     };
 
@@ -123,9 +126,31 @@ function ContactForm() {
                                 helperText={errors.message ? errors.message.message || 'Message must be over 30 characters' : ''}
                             />
 
-                            <Button type="submit" variant="contained" color="primary">
-                                {t('send')}
-                            </Button>
+                            <Box sx={{ position: 'relative' }}>
+                                <Button
+                                    type="submit"
+                                    variant="contained"
+                                    color="primary"
+                                    disabled={loading}
+                                    fullWidth
+                                >
+                                    {t('send')}
+                                </Button>
+                                {loading && (
+                                    <CircularProgress
+                                        size={24}
+                                        sx={{
+                                            color: green[500],
+                                            position: 'absolute',
+                                            top: '50%',
+                                            left: '50%',
+                                            marginTop: '-12px',
+                                            marginLeft: '-12px',
+                                        }}
+                                    />
+                                )}
+                            </Box>
+
                             {/*<p>This site is protected by reCAPTCHA and the Google*/}
                             {/*    <a href="https://policies.google.com/privacy">Privacy Policy</a> and*/}
                             {/*    <a href="https://policies.google.com/terms">Terms of Service</a> apply.*/}
