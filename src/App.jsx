@@ -1,7 +1,7 @@
 import React from 'react';
 import { ThemeProvider, CssBaseline } from '@mui/material';
 import { lightTheme, darkTheme, blueTheme, redTheme } from '../src/Theme/Theme.jsx';
-import { Route, Routes } from 'react-router-dom';
+import { Route, Routes, useLocation } from 'react-router-dom';
 import './App.css';
 import Home from '../src/Routes/Home/Home.jsx';
 import Timeline from './Routes/Timeline/Timeline.jsx';
@@ -15,7 +15,9 @@ import ScrollToTop from './ScrollToTop';
 
 function App() {
     const themeName = useSelector((state) => state.theme.currentTheme);
-    useDirection(); // Include useDirection hook
+    const language = useSelector((state) => state.language.currentLanguage);
+    const location = useLocation();
+    const direction = useDirection();
 
     // Determine the theme based on Redux state
     const currentTheme = () => {
@@ -33,6 +35,9 @@ function App() {
         }
     };
 
+    // Determine if the current route should have RTL direction
+    const isRtlRoute = location.pathname !== '/timeline' && location.pathname !== '/projects' && language === 'ar';
+
     return (
         <ThemeProvider theme={currentTheme()}>
             <CssBaseline />
@@ -40,7 +45,7 @@ function App() {
             <div className="app-container">
                 <ScrollToTop /> {/* Include ScrollToTop */}
                 <ButtonAppBar />
-                <div className="content-grow">
+                <div className="content-grow" dir={isRtlRoute ? 'rtl' : 'ltr'}>
                     <Routes>
                         <Route path="/" element={<Home />} />
                         <Route path="/timeline" element={<Timeline />} />
