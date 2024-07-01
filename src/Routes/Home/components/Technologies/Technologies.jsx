@@ -29,7 +29,7 @@ function Technologies() {
         'Haskell', 'C', 'Redux', 'HTML', 'CSS',
         'NodeJS', 'Spring', 'mySQL', 'PostgreSQL', 'MongoDB',
         'Firebase', 'AWS', 'PostMan', 'GitHub', 'googleCloud',
-        'express', 'Mui', 'NextJS', 'Docker',
+        'express', 'Mui', 'NextJS', 'Docker', 'Maven',
     ];
 
     const [displayedTechnologies, setDisplayedTechnologies] = useState(technologies.slice(0, 10));
