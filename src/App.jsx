@@ -41,7 +41,7 @@ function App() {
     return (
         <ThemeProvider theme={currentTheme()}>
             <CssBaseline />
-            <LanguageSynchronizer /> {/* Include LanguageSynchronizer */}
+            <LanguageSynchronizer /> {/* Ensure LanguageSynchronizer is included */}
             <div className="app-container" dir={isRtlRoute ? 'rtl' : 'ltr'}>
                 <ScrollToTop /> {/* Include ScrollToTop */}
                 <ButtonAppBar />
