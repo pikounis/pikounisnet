@@ -9,6 +9,8 @@ import translationIN from './Languages/IN/translation.json';
 import translationES from './Languages/ES/translation.json';
 import translationUK from './Languages/UK/translation.json';
 
+const storedLanguage = localStorage.getItem('language') || 'uk';
+
 i18n
     .use(initReactI18next)
     .init({
@@ -21,7 +23,7 @@ i18n
             es: { translation: translationES },
             uk: { translation: translationUK }
         },
-        lng: 'uk',
+        lng: storedLanguage, // Use the stored language from localStorage
         fallbackLng: 'uk',
         interpolation: {
             escapeValue: false
