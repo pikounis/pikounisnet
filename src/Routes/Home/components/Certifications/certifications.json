@@ -14,6 +14,10 @@
   {
     "name": "Wiley - Python",
     "link": "https://pikounisnet-express-backend.vercel.app/assets/certifications/wiley_python.png"
+  },
+  {
+    "name": "QA - Engineering",
+    "link": "https://pikounisnet-express-backend.vercel.app/assets/certifications/qa.png"
   }
 ]
 
