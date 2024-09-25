@@ -21,7 +21,7 @@
     },
     "technologies": ["React", "Firebase"],
     "image": "https://pikounisnet-express-backend.vercel.app/assets/projects/ic.png",
-    "websiteUrl": "https://investment-calculator-e5b7c.web.app/",
+    "websiteUrl": "https://invest.apikounis.com/",
     "githubUrl": "https://github.com/pikounis/investment_calculator"
   },
   {
@@ -96,7 +96,7 @@
     },
     "technologies": ["React", "Firebase"],
     "image": "https://pikounisnet-express-backend.vercel.app/assets/projects/rent.png",
-    "websiteUrl": "https://rent-3b02c.web.app/",
+    "websiteUrl": "https://rent.apikounis.com/",
     "githubUrl": "https://github.com/pikounis/rent2"
   },
   {
