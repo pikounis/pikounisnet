@@ -4,13 +4,13 @@
     "date": "Sep 2024 - Present",
     "title": "Software Engineer",
     "subtitle": "Sky",
-    "description": "",
+    "description": "Contributed to real-life product development projects, using a technology stack including React, Python, Java, Groovy, Jenkins, SQL, noSQL. Predicted customer churn and tailored personalised offers by integrating the OpenAI API with Python, React, and NoSQL, enhancing user engagement and retention. Optimised Jenkins pipelines for Apple TV and Roku related projects to ensure safe test environments and developed shell scripts to spin up Docker-based Jenkins containers for principal engineer local testing. Translated complex business requirements into JIRA Epics and Tasks. Delivered bi-weekly presentations to demonstrate project progress and foster stakeholder alignment.",
     "icon": "https://pikounisnet-express-backend.vercel.app/assets/timeline_logos/sky.jpg",
     "website": "https://www.sky.com/"
   },
   {
     "id": 2,
-    "date": "Jan 2024 - Jul 2024",
+    "date": "Jan 2024 - Aug 2024",
     "title": "Support Engineer",
     "subtitle": "Fornova",
     "description": "At Fornova, I worked as a support engineer on two of our SaaS products. Distribution Intelligence and Competitive Intelligence. These products are used all over the hospitality industry helping hotels increase their sales up to 30%. We help our customers make business decisions and effective pricing by comparing data that we scrape for them daily. Technologies that I use daily include Python, JavaScript, SQL, MongoDB, Elastic Kibana and Tableau.",
